@@ -1,7 +1,5 @@
 title: Form Rando?
 originalAuthor: Shananas
-game: kh2
-description: Thanks to 1234567890num for making the program to actually randomize it since i dont know how to make anything other than a console application. Everything else done by me. Thanks to DA for the knowledge by doing an Anti Form mod first
 assets:
 
 #sora form edits
@@ -12,7 +10,40 @@ assets:
   - name: obj.yml
     type: objentry
 
-#moveset edits
+#mset edits
+- name: obj/P_EX100_KH1F.mset
+  method: copy
+  source:
+  - name: mset/P_EX100_KH1F.mset
+- name: obj/P_EX100_LIMIT.mset
+  method: copy
+  source:
+  - name: mset/P_EX100_LIMIT.mset
+- name: obj/P_EX100_BTLF_LIMIT.mset
+  method: copy
+  source:
+  - name: mset/P_EX100_BTLF_LIMIT.mset
+- name: obj/P_EX100_MAGF_LIMIT.mset
+  method: copy
+  source:
+  - name: mset/P_EX100_MAGF_LIMIT.mset
+- name: obj/P_EX100_KH1F_LIMIT.mset
+  method: copy
+  source:
+  - name: obj/P_EX100_KH1F.mset
+    type: internal
+- name: obj/P_EX100_TRIF_LIMIT.mset
+  method: copy
+  source:
+  - name: mset/P_EX100_TRIF_LIMIT.mset
+- name: obj/P_EX100_ULTF_LIMIT.mset
+  method: copy
+  source:
+  - name: mset/P_EX100_ULTF_LIMIT.mset
+- name: obj/P_EX100_HTLF_LIMIT.mset
+  method: copy
+  source:
+  - name: mset/P_EX100_HTLF_LIMIT.mset
 - name: obj/P_EX100.mset
   method: copy
   source:
@@ -25,10 +56,6 @@ assets:
   method: copy
   source:
   - name: obj/P_EX100_HTLF.mset
-- name: obj/P_EX100_KH1F.mset
-  method: copy
-  source:
-  - name: obj/P_EX100_KH1F.mset
 - name: obj/P_EX100_MAGF.mset
   method: copy
   source:
