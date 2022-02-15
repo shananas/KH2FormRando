@@ -14,19 +14,19 @@ assets:
 - name: obj/P_EX100_KH1F.mset
   method: copy
   source:
-  - name: mset/P_EX100_KH1F.mset
+  - name: obj/P_EX100_KH1F.mset
 - name: obj/P_EX100_LIMIT.mset
   method: copy
   source:
-  - name: mset/P_EX100_LIMIT.mset
+  - name: obj/P_EX100_LIMIT.mset
 - name: obj/P_EX100_BTLF_LIMIT.mset
   method: copy
   source:
-  - name: mset/P_EX100_BTLF_LIMIT.mset
+  - name: obj/P_EX100_BTLF_LIMIT.mset
 - name: obj/P_EX100_MAGF_LIMIT.mset
   method: copy
   source:
-  - name: mset/P_EX100_MAGF_LIMIT.mset
+  - name: obj/P_EX100_MAGF_LIMIT.mset
 - name: obj/P_EX100_KH1F_LIMIT.mset
   method: copy
   source:
@@ -35,15 +35,15 @@ assets:
 - name: obj/P_EX100_TRIF_LIMIT.mset
   method: copy
   source:
-  - name: mset/P_EX100_TRIF_LIMIT.mset
+  - name: obj/P_EX100_TRIF_LIMIT.mset
 - name: obj/P_EX100_ULTF_LIMIT.mset
   method: copy
   source:
-  - name: mset/P_EX100_ULTF_LIMIT.mset
+  - name: obj/P_EX100_ULTF_LIMIT.mset
 - name: obj/P_EX100_HTLF_LIMIT.mset
   method: copy
   source:
-  - name: mset/P_EX100_HTLF_LIMIT.mset
+  - name: obj/P_EX100_HTLF_LIMIT.mset
 - name: obj/P_EX100.mset
   method: copy
   source:
