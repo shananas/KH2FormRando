@@ -1,0 +1,41 @@
+title: Form Rando?
+originalAuthor: Shananas
+assets:
+
+#sora form edits
+- name: 00objentry.bin
+  method: listpatch
+  type: List
+  source:
+  - name: obj.yml
+    type: objentry
+
+#moveset edits
+- name: obj/P_EX100.mset
+  method: copy
+  source:
+  - name: obj/P_EX100.mset
+- name: obj/P_EX100_BTLF.mset
+  method: copy
+  source:
+  - name: obj/P_EX100_BTLF.mset
+- name: obj/P_EX100_HTLF.mset
+  method: copy
+  source:
+  - name: obj/P_EX100_HTLF.mset
+- name: obj/P_EX100_KH1F.mset
+  method: copy
+  source:
+  - name: obj/P_EX100_KH1F.mset
+- name: obj/P_EX100_MAGF.mset
+  method: copy
+  source:
+  - name: obj/P_EX100_MAGF.mset
+- name: obj/P_EX100_TRIF.mset
+  method: copy
+  source:
+  - name: obj/P_EX100_TRIF.mset
+- name: obj/P_EX100_ULTF.mset
+  method: copy
+  source:
+  - name: obj/P_EX100_ULTF.mset
