@@ -57,14 +57,6 @@ h.write('  type: List\n')
 h.write('  source:\n')
 h.write('  - name: obj.yml\n')
 h.write('    type: objentry\n')
-h.write('- name: 00battle.bin\n')
-h.write('  method: binarc\n')
-h.write('  source:\n')
-h.write('  - name: ptya\n')
-h.write('    type: list\n')
-h.write('    method: copy\n')
-h.write('    source:\n')
-h.write('    - name: ptya_0.list\n')
 modymlcopy('P_EX100')
 modymlcopy('P_EX100_BTLF')
 modymlcopy('P_EX100_MAGF')
@@ -81,7 +73,16 @@ h.write('    type: internal\n')
 newlimit = randomresult[3] #The form that replaces Limit Form
 if newlimit != 3: #Limit Form isn't vanilla
     form = forms[newlimit]
-    #Limits AI for New Form's MDLX
+    #Ragnarok Fix
+    h.write('- name: 00battle.bin\n')
+    h.write('  method: binarc\n')
+    h.write('  source:\n')
+    h.write('  - name: ptya\n')
+    h.write('    type: list\n')
+    h.write('    method: copy\n')
+    h.write('    source:\n')
+    h.write('    - name: ptya'+form+'.list\n')
+    #Limits' AI for New Form's MDLX
     for world in ['','_NM','_TR','_WI','_XM']:
         h.write('- name: obj/P_EX100'+world+form+'.mdlx\n')
         h.write('  method: binarc\n')
