@@ -95,5 +95,5 @@ if newlimit != 3: #Limit Form isn't vanilla
     if newlimit != 6: #No changes in weapon moveset for Anti Form
         if newlimit in [1,4,5]: #Dual-wield forms
             form += '_R'
-        modymlcopy('W_EX100'+form) #New Form's Weapon Moveset
+        modymlcopy('W_EX010'+form) #New Form's Weapon Moveset
 h.close()
