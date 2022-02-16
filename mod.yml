@@ -18,6 +18,208 @@ assets:
     - name: ptya_0.list
     type: list
 
+#Model Limit Fixes
+- method: binarc
+  name: obj/P_EX100.mdlx
+  source:
+  - method: copy
+    name: limi_0
+    source:
+    - name: limi_0.bdx
+    type: bdx
+- method: binarc
+  name: obj/P_EX100_NM.mdlx
+  source:
+  - method: copy
+    name: limi_0
+    source:
+    - name: limi_0.bdx
+    type: bdx
+- method: binarc
+  name: obj/P_EX100_TR.mdlx
+  source:
+  - method: copy
+    name: limi_0
+    source:
+    - name: limi_0.bdx
+    type: bdx
+- method: binarc
+  name: obj/P_EX100_WI.mdlx
+  source:
+  - method: copy
+    name: limi_0
+    source:
+    - name: limi_0.bdx
+    type: bdx
+- method: binarc
+  name: obj/P_EX100_XM.mdlx
+  source:
+  - method: copy
+    name: limi_0
+    source:
+    - name: limi_0.bdx
+    type: bdx
+- method: binarc
+  name: obj/P_EX100_BTLF.mdlx
+  source:
+  - method: copy
+    name: limi_0
+    source:
+    - name: limi_0.bdx
+    type: bdx
+- method: binarc
+  name: obj/P_EX100_BTLF_NM.mdlx
+  source:
+  - method: copy
+    name: limi_0
+    source:
+    - name: limi_0.bdx
+    type: bdx
+- method: binarc
+  name: obj/P_EX100_BTLF_TR.mdlx
+  source:
+  - method: copy
+    name: limi_0
+    source:
+    - name: limi_0.bdx
+    type: bdx
+- method: binarc
+  name: obj/P_EX100_BTLF_WI.mdlx
+  source:
+  - method: copy
+    name: limi_0
+    source:
+    - name: limi_0.bdx
+    type: bdx
+- method: binarc
+  name: obj/P_EX100_BTLF_XM.mdlx
+  source:
+  - method: copy
+    name: limi_0
+    source:
+    - name: limi_0.bdx
+    type: bdx
+- method: binarc
+  name: obj/P_EX100_HTLF.mdlx
+  source:
+  - method: copy
+    name: limi_0
+    source:
+    - name: limi_0.bdx
+    type: bdx
+- method: binarc
+  name: obj/P_EX100_HTLF_NM.mdlx
+  source:
+  - method: copy
+    name: limi_0
+    source:
+    - name: limi_0.bdx
+    type: bdx
+- method: binarc
+  name: obj/P_EX100_HTLF_TR.mdlx
+  source:
+  - method: copy
+    name: limi_0
+    source:
+    - name: limi_0.bdx
+    type: bdx
+- method: binarc
+  name: obj/P_EX100_HTLF_WI.mdlx
+  source:
+  - method: copy
+    name: limi_0
+    source:
+    - name: limi_0.bdx
+    type: bdx
+- method: binarc
+  name: obj/P_EX100_HTLF_XM.mdlx
+  source:
+  - method: copy
+    name: limi_0
+    source:
+    - name: limi_0.bdx
+    type: bdx
+- method: binarc
+  name: obj/P_EX100_TRIF.mdlx
+  source:
+  - method: copy
+    name: limi_0
+    source:
+    - name: limi_0.bdx
+    type: bdx
+- method: binarc
+  name: obj/P_EX100_TRIF_NM.mdlx
+  source:
+  - method: copy
+    name: limi_0
+    source:
+    - name: limi_0.bdx
+    type: bdx
+- method: binarc
+  name: obj/P_EX100_TRIF_TR.mdlx
+  source:
+  - method: copy
+    name: limi_0
+    source:
+    - name: limi_0.bdx
+    type: bdx
+- method: binarc
+  name: obj/P_EX100_TRIF_WI.mdlx
+  source:
+  - method: copy
+    name: limi_0
+    source:
+    - name: limi_0.bdx
+    type: bdx
+- method: binarc
+  name: obj/P_EX100_TRIF_XM.mdlx
+  source:
+  - method: copy
+    name: limi_0
+    source:
+    - name: limi_0.bdx
+    type: bdx
+- method: binarc
+  name: obj/P_EX100_ULTF.mdlx
+  source:
+  - method: copy
+    name: limi_0
+    source:
+    - name: limi_0.bdx
+    type: bdx
+- method: binarc
+  name: obj/P_EX100_ULTF_NM.mdlx
+  source:
+  - method: copy
+    name: limi_0
+    source:
+    - name: limi_0.bdx
+    type: bdx
+- method: binarc
+  name: obj/P_EX100_ULTF_TR.mdlx
+  source:
+  - method: copy
+    name: limi_0
+    source:
+    - name: limi_0.bdx
+    type: bdx
+- method: binarc
+  name: obj/P_EX100_ULTF_WI.mdlx
+  source:
+  - method: copy
+    name: limi_0
+    source:
+    - name: limi_0.bdx
+    type: bdx
+- method: binarc
+  name: obj/P_EX100_ULTF_XM.mdlx
+  source:
+  - method: copy
+    name: limi_0
+    source:
+    - name: limi_0.bdx
+    type: bdx
+
 #mset edits
 - name: obj/P_EX100_KH1F.mset
   method: copy
@@ -31,10 +233,6 @@ assets:
   method: copy
   source:
   - name: obj/P_EX100_BTLF_LIMIT.mset
-- name: obj/P_EX100_MAGF_LIMIT.mset
-  method: copy
-  source:
-  - name: obj/P_EX100_MAGF_LIMIT.mset
 - name: obj/P_EX100_KH1F_LIMIT.mset
   method: copy
   source:
@@ -76,30 +274,6 @@ assets:
   method: copy
   source:
   - name: obj/P_EX100_ULTF.mset
-- name: obj/P_EX100.mdlx
-  method: copy
-  source:
-  - name: obj/P_EX100.mdlx
-- name: obj/P_EX100_BTLF.mdlx
-  method: copy
-  source:
-  - name: obj/P_EX100_BTLF.mdlx
-- name: obj/P_EX100_HTLF.mdlx
-  method: copy
-  source:
-  - name: obj/P_EX100_HTLF.mdlx
-- name: obj/P_EX100_MAGF.mdlx
-  method: copy
-  source:
-  - name: obj/P_EX100_MAGF.mdlx
-- name: obj/P_EX100_TRIF.mdlx
-  method: copy
-  source:
-  - name: obj/P_EX100_TRIF.mdlx
-- name: obj/P_EX100_ULTF.mdlx
-  method: copy
-  source:
-  - name: obj/P_EX100_ULTF.mdlx
 
 #If limit form is replace by base Sora delete the next four # (Hastags). If you want a keyblade while using limits.
 #- name: obj/W_EX010.mset
