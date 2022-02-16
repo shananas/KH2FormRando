@@ -1,6 +1,9 @@
 # KH2FormRando
 
-Beta KH2 Form Rando
+Credits since they cant be in the mod.yml easily 
+Thanks to 1234567890num for making the program to actually randomize it since I dont know how to make anything other than a console application. Also continuing to improve it and add everything the .exe can do. All file edits initially done by me. Thanks to DA for the knowledge by doing an Anti Form mod first. Also thanks to Zurph from the openkh discord again since anytime I have a question he always has an easy answer.
+
+KH2 Form Rando
 
 All forms including base sora are randomized. To rerandomize run Randomize.exe or Anti_Wont_Replace_Base.exe from the installed mod location.
 To easily get to it click on KH2FormRando in the mod manager and hit mods open mod folder.
