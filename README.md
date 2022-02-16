@@ -31,3 +31,5 @@ Wisodm will be updated not to replace wisdom form if it is wisdom I recommend Re
 
 P_EX100_HTLF.mset
 Anti doesnt have a keyblade so.
+
+After a seed/before doing another one you will need to recomment the four lines with one # per line. also be careful not to delete any extra spaces as .ymls are dumb and are very specific
