@@ -9,6 +9,14 @@ assets:
   source:
   - name: obj.yml
     type: objentry
+- method: binarc
+  name: 00battle.bin
+  source:
+  - method: copy
+    name: ptya
+    source:
+    - name: ptya_0.list
+    type: list
 
 #mset edits
 - name: obj/P_EX100_KH1F.mset
@@ -68,3 +76,48 @@ assets:
   method: copy
   source:
   - name: obj/P_EX100_ULTF.mset
+- name: obj/P_EX100.mdlx
+  method: copy
+  source:
+  - name: obj/P_EX100.mdlx
+- name: obj/P_EX100_BTLF.mdlx
+  method: copy
+  source:
+  - name: obj/P_EX100_BTLF.mdlx
+- name: obj/P_EX100_HTLF.mdlx
+  method: copy
+  source:
+  - name: obj/P_EX100_HTLF.mdlx
+- name: obj/P_EX100_MAGF.mdlx
+  method: copy
+  source:
+  - name: obj/P_EX100_MAGF.mdlx
+- name: obj/P_EX100_TRIF.mdlx
+  method: copy
+  source:
+  - name: obj/P_EX100_TRIF.mdlx
+- name: obj/P_EX100_ULTF.mdlx
+  method: copy
+  source:
+  - name: obj/P_EX100_ULTF.mdlx
+
+#If limit form is replace by base Sora delete the next four # (Hastags). If you want a keyblade while using limits.
+#- name: obj/W_EX010.mset
+#  method: copy
+#  source:
+#  - name: obj/W_EX010.mset
+#If limit form is replace by Valor Sora delete the next four # (Hastags). If you want a keyblade while using limits.
+#- name: obj/W_EX010_BTLF_R.mset
+#  method: copy
+#  source:
+#  - name: obj/W_EX010_BTLF_R.mset
+#If limit form is replace by Master Sora delete the next four # (Hastags). If you want a keyblade while using limits.
+#- name: obj/W_EX010_TRIF_R.mset
+#  method: copy
+#  source:
+#  - name: obj/W_EX010_TRIF_R.mset
+#If limit form is replace by Final Sora delete the next four # (Hastags). If you want a keyblade while using limits.
+#- name: obj/W_EX010_ULTF_R.mset
+#  method: copy
+#  source:
+#  - name: obj/W_EX010_ULTF_R.mset
