@@ -5,6 +5,9 @@ Thanks to 1234567890num for making the program to actually randomize it since I 
 
 KH2 Form Rando
 
+If Base Sora is replaced by limit form dont change your keyblades outside of pride lands, the GoA, or Space Parinoids it might freeze otherwise.
+There still is some tposing in forms on bosses you normally wouldnt but I only encountered one on Saix when I went into valor which was base Sora. That also could be because I use an HD patch
+
 All forms including base sora are randomized. To rerandomize run Randomize.exe or Anti_Wont_Replace_Base.exe from the installed mod location.
 To easily get to it click on KH2FormRando in the mod manager and hit mods open mod folder.
 
