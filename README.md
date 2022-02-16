@@ -13,8 +13,8 @@ Then Anti form cannot be base sora. This is cause there are a few RCs that requi
 
 Everything else is fully random. Form exp requirements stay vanilla(So in whatever replaced limit form you still need to use limits to level it). EX: if base sora replaes final have fun leveling up final as base sora.
 
-Unfortunately if you want a keyblade when using limits in limit form assuming it didnt become ant you will have to "uncomment" four lines at the bottom of the mod.yml
-Depending on which form replaces limit to keep that forms keyblade when using the limit you have to delete the hastags before 4 lines. Each set of lines has a "Title" telling you which form it is for. To determine which form replaced limit before starting you must open the obj.yml and scroll all the way to the bottom and you will see which form replaced it.
+Unfortunately if you want a keyblade when using limits in limit form assuming it didnt become anti you will have to "uncomment" four lines at the bottom of the mod.yml
+Depending on which form replaces limit to keep that forms keyblade when using the limit you have to delete the hastags before 4 lines. Each set of lines has a "Title" telling you which form it is for. To determine which form replaced limit before starting you must open the obj.yml and scroll all the way to the bottom and you will see which form replaced it. Next to AnimationName: ignore the extra _LIMIT after each one
 
 P_EX100.mset is Base Sora
 P_EX100_BTLF.mset is Valor Sora
