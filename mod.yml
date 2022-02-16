@@ -1,255 +1,20 @@
 title: Form Rando?
-originalAuthor: Shananas
+original Author: Shananas
 assets:
-
-#sora form edits
 - name: 00objentry.bin
   method: listpatch
   type: List
   source:
   - name: obj.yml
     type: objentry
-- method: binarc
-  name: 00battle.bin
+- name: 00battle.bin
+  method: binarc
   source:
-  - method: copy
-    name: ptya
+  - name: ptya
+    type: list
+    method: copy
     source:
     - name: ptya_0.list
-    type: list
-
-#Model Limit Fixes
-- method: binarc
-  name: obj/P_EX100.mdlx
-  source:
-  - method: copy
-    name: limi_0
-    source:
-    - name: limi_0.bdx
-    type: bdx
-- method: binarc
-  name: obj/P_EX100_NM.mdlx
-  source:
-  - method: copy
-    name: limi_0
-    source:
-    - name: limi_0.bdx
-    type: bdx
-- method: binarc
-  name: obj/P_EX100_TR.mdlx
-  source:
-  - method: copy
-    name: limi_0
-    source:
-    - name: limi_0.bdx
-    type: bdx
-- method: binarc
-  name: obj/P_EX100_WI.mdlx
-  source:
-  - method: copy
-    name: limi_0
-    source:
-    - name: limi_0.bdx
-    type: bdx
-- method: binarc
-  name: obj/P_EX100_XM.mdlx
-  source:
-  - method: copy
-    name: limi_0
-    source:
-    - name: limi_0.bdx
-    type: bdx
-- method: binarc
-  name: obj/P_EX100_BTLF.mdlx
-  source:
-  - method: copy
-    name: limi_0
-    source:
-    - name: limi_0.bdx
-    type: bdx
-- method: binarc
-  name: obj/P_EX100_BTLF_NM.mdlx
-  source:
-  - method: copy
-    name: limi_0
-    source:
-    - name: limi_0.bdx
-    type: bdx
-- method: binarc
-  name: obj/P_EX100_BTLF_TR.mdlx
-  source:
-  - method: copy
-    name: limi_0
-    source:
-    - name: limi_0.bdx
-    type: bdx
-- method: binarc
-  name: obj/P_EX100_BTLF_WI.mdlx
-  source:
-  - method: copy
-    name: limi_0
-    source:
-    - name: limi_0.bdx
-    type: bdx
-- method: binarc
-  name: obj/P_EX100_BTLF_XM.mdlx
-  source:
-  - method: copy
-    name: limi_0
-    source:
-    - name: limi_0.bdx
-    type: bdx
-- method: binarc
-  name: obj/P_EX100_HTLF.mdlx
-  source:
-  - method: copy
-    name: limi_0
-    source:
-    - name: limi_0.bdx
-    type: bdx
-- method: binarc
-  name: obj/P_EX100_HTLF_NM.mdlx
-  source:
-  - method: copy
-    name: limi_0
-    source:
-    - name: limi_0.bdx
-    type: bdx
-- method: binarc
-  name: obj/P_EX100_HTLF_TR.mdlx
-  source:
-  - method: copy
-    name: limi_0
-    source:
-    - name: limi_0.bdx
-    type: bdx
-- method: binarc
-  name: obj/P_EX100_HTLF_WI.mdlx
-  source:
-  - method: copy
-    name: limi_0
-    source:
-    - name: limi_0.bdx
-    type: bdx
-- method: binarc
-  name: obj/P_EX100_HTLF_XM.mdlx
-  source:
-  - method: copy
-    name: limi_0
-    source:
-    - name: limi_0.bdx
-    type: bdx
-- method: binarc
-  name: obj/P_EX100_TRIF.mdlx
-  source:
-  - method: copy
-    name: limi_0
-    source:
-    - name: limi_0.bdx
-    type: bdx
-- method: binarc
-  name: obj/P_EX100_TRIF_NM.mdlx
-  source:
-  - method: copy
-    name: limi_0
-    source:
-    - name: limi_0.bdx
-    type: bdx
-- method: binarc
-  name: obj/P_EX100_TRIF_TR.mdlx
-  source:
-  - method: copy
-    name: limi_0
-    source:
-    - name: limi_0.bdx
-    type: bdx
-- method: binarc
-  name: obj/P_EX100_TRIF_WI.mdlx
-  source:
-  - method: copy
-    name: limi_0
-    source:
-    - name: limi_0.bdx
-    type: bdx
-- method: binarc
-  name: obj/P_EX100_TRIF_XM.mdlx
-  source:
-  - method: copy
-    name: limi_0
-    source:
-    - name: limi_0.bdx
-    type: bdx
-- method: binarc
-  name: obj/P_EX100_ULTF.mdlx
-  source:
-  - method: copy
-    name: limi_0
-    source:
-    - name: limi_0.bdx
-    type: bdx
-- method: binarc
-  name: obj/P_EX100_ULTF_NM.mdlx
-  source:
-  - method: copy
-    name: limi_0
-    source:
-    - name: limi_0.bdx
-    type: bdx
-- method: binarc
-  name: obj/P_EX100_ULTF_TR.mdlx
-  source:
-  - method: copy
-    name: limi_0
-    source:
-    - name: limi_0.bdx
-    type: bdx
-- method: binarc
-  name: obj/P_EX100_ULTF_WI.mdlx
-  source:
-  - method: copy
-    name: limi_0
-    source:
-    - name: limi_0.bdx
-    type: bdx
-- method: binarc
-  name: obj/P_EX100_ULTF_XM.mdlx
-  source:
-  - method: copy
-    name: limi_0
-    source:
-    - name: limi_0.bdx
-    type: bdx
-
-#mset edits
-- name: obj/P_EX100_KH1F.mset
-  method: copy
-  source:
-  - name: obj/P_EX100_KH1F.mset
-- name: obj/P_EX100_LIMIT.mset
-  method: copy
-  source:
-  - name: obj/P_EX100_LIMIT.mset
-- name: obj/P_EX100_BTLF_LIMIT.mset
-  method: copy
-  source:
-  - name: obj/P_EX100_BTLF_LIMIT.mset
-- name: obj/P_EX100_KH1F_LIMIT.mset
-  method: copy
-  source:
-  - name: obj/P_EX100_KH1F.mset
-    type: internal
-- name: obj/P_EX100_TRIF_LIMIT.mset
-  method: copy
-  source:
-  - name: obj/P_EX100_TRIF_LIMIT.mset
-- name: obj/P_EX100_ULTF_LIMIT.mset
-  method: copy
-  source:
-  - name: obj/P_EX100_ULTF_LIMIT.mset
-- name: obj/P_EX100_HTLF_LIMIT.mset
-  method: copy
-  source:
-  - name: obj/P_EX100_HTLF_LIMIT.mset
 - name: obj/P_EX100.mset
   method: copy
   source:
@@ -258,14 +23,14 @@ assets:
   method: copy
   source:
   - name: obj/P_EX100_BTLF.mset
-- name: obj/P_EX100_HTLF.mset
-  method: copy
-  source:
-  - name: obj/P_EX100_HTLF.mset
 - name: obj/P_EX100_MAGF.mset
   method: copy
   source:
   - name: obj/P_EX100_MAGF.mset
+- name: obj/P_EX100_KH1F.mset
+  method: copy
+  source:
+  - name: obj/P_EX100_KH1F.mset
 - name: obj/P_EX100_TRIF.mset
   method: copy
   source:
@@ -274,24 +39,60 @@ assets:
   method: copy
   source:
   - name: obj/P_EX100_ULTF.mset
-
-#If limit form is replace by base Sora delete the next four # (Hastags). If you want a keyblade while using limits.
-#- name: obj/W_EX010.mset
-#  method: copy
-#  source:
-#  - name: obj/W_EX010.mset
-#If limit form is replace by Valor Sora delete the next four # (Hastags). If you want a keyblade while using limits.
-#- name: obj/W_EX010_BTLF_R.mset
-#  method: copy
-#  source:
-#  - name: obj/W_EX010_BTLF_R.mset
-#If limit form is replace by Master Sora delete the next four # (Hastags). If you want a keyblade while using limits.
-#- name: obj/W_EX010_TRIF_R.mset
-#  method: copy
-#  source:
-#  - name: obj/W_EX010_TRIF_R.mset
-#If limit form is replace by Final Sora delete the next four # (Hastags). If you want a keyblade while using limits.
-#- name: obj/W_EX010_ULTF_R.mset
-#  method: copy
-#  source:
-#  - name: obj/W_EX010_ULTF_R.mset
+- name: obj/P_EX100_HTLF.mset
+  method: copy
+  source:
+  - name: obj/P_EX100_HTLF.mset
+- name: obj/P_EX100_KH1F_LIMIT.mset
+  method: copy
+  source:
+  - name: obj/P_EX100_KH1F.mset
+    type: internal
+- name: obj/P_EX100_BTLF.mdlx
+  method: binarc
+  source:
+  - name: limi
+    type: bdx
+    method: copy
+    source:
+    - name: limi_0.bdx
+- name: obj/P_EX100_NM_BTLF.mdlx
+  method: binarc
+  source:
+  - name: limi
+    type: bdx
+    method: copy
+    source:
+    - name: limi_0.bdx
+- name: obj/P_EX100_TR_BTLF.mdlx
+  method: binarc
+  source:
+  - name: limi
+    type: bdx
+    method: copy
+    source:
+    - name: limi_0.bdx
+- name: obj/P_EX100_WI_BTLF.mdlx
+  method: binarc
+  source:
+  - name: limi
+    type: bdx
+    method: copy
+    source:
+    - name: limi_0.bdx
+- name: obj/P_EX100_XM_BTLF.mdlx
+  method: binarc
+  source:
+  - name: limi
+    type: bdx
+    method: copy
+    source:
+    - name: limi_0.bdx
+- name: obj/P_EX100_BTLF_LIMIT.mset
+  method: copy
+  source:
+  - name: obj/P_EX100_BTLF_LIMIT.mset
+- name: obj/W_EX100_BTLF_R.mset
+  method: copy
+  source:
+  - name: obj/W_EX100_BTLF_R.mset
