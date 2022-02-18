@@ -19,6 +19,8 @@ Then Anti form cannot be base sora. This is cause there are a few RCs that requi
 
 Everything else is fully random. Form exp requirements stay vanilla(So in whatever replaced limit form you still need to use limits to level it). EX: if base sora replaes final have fun leveling up final as base sora.
 
+
+
 **Nothing Below this line matters anymore but im not removing it**
 
 ~~Unfortunately if you want a keyblade when using limits in limit form assuming it didnt become anti you will have to "uncomment" four lines at the bottom of the mod.yml
