@@ -1,6 +1,6 @@
 Limit Form over Base Sora takes extra memory so do not cahnge your keyblade unless in Pride Lands, Space Parinoids, or GoA it might crash otherwise.
 
-Dying on PC I think crashes your game cause there is no death animation I'll try to fix this soon and remove this note.
+If a form with less than 2 keyblades replaces Final Form do not use Fire or Blizzard it will freeze the game
 
 There is still some limited T-posing on boses i've only experienced one and that was probably because I use an HD patch.
 
