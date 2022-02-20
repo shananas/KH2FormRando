@@ -8,7 +8,9 @@ KH2 Form Rando
 Read known issues for a few precautions as to not freeze/crash. Its pretty stable but there are like two game breaking (Freezing/Crashing) Bugs.
 
 If Base Sora is replaced by limit form dont change your keyblades outside of pride lands, the GoA, or Space Parinoids it might freeze otherwise.
-If a form with less than 2 keyblades replaces Final Form do not use Fire or Blizzard it will freeze the game
+
+If a form with less than 2 keyblades replaces Final Form do not use Fire or Blizzard it will freeze the game.
+
 There still is some tposing in forms on bosses you normally wouldnt but I only encountered one on Saix when I went into valor which was base Sora. That also could be because I use an HD patch
 
 All forms including base sora are randomized. To rerandomize run Randomize.exe or Anti_Wont_Replace_Base.exe from the installed mod location.
