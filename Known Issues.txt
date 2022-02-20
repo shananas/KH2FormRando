@@ -1,5 +1,3 @@
-Limit Form over Base Sora takes extra memory so do not change your keyblade unless in Pride Lands, Space Parinoids, or GoA it might crash otherwise.
-
 If a form with less than 2 keyblades replaces Final Form do not use Fire or Blizzard it will freeze the game.
 
 There is still some limited T-posing on boses i've only experienced one and that was probably because I use an HD patch.
