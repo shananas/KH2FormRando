@@ -1,4 +1,4 @@
-Limit Form over Base Sora takes extra memory so do not cahnge your keyblade unless in Pride Lands, Space Parinoids, or GoA it might crash otherwise.
+Limit Form over Base Sora takes extra memory so do not change your keyblade unless in Pride Lands, Space Parinoids, or GoA it might crash otherwise.
 
 If a form with less than 2 keyblades replaces Final Form do not use Fire or Blizzard it will freeze the game
 
