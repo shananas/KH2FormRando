@@ -1,5 +1,7 @@
 If a form with less than 2 keyblades replaces Final Form do not use Fire or Blizzard it will freeze the game.
 
+If on PC and Limit form is not vanilla do not use Ars Arcanum when the limit ends you will crash. Whether you use the finisher or stop early.
+
 There is still some limited T-posing on boses i've only experienced one and that was probably because I use an HD patch.
 
 While Antiform if it replaces limit form can use limits there is no keyblade so its specifically to level limit form up.
