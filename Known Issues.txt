@@ -1,5 +1,9 @@
 If a form with less than 2 keyblades replaces Final Form do not use Fire or Blizzard it will freeze the game.
 
+Aparantly if Master form is replaced by anti form you cannot open chests in master form. DONT DO THAT.
+
+If base Sora is Limit Form or Wisdom Form you can only revert once from a form without going through a load zone. So if youre fighting noraml lxuord then fail the game/DM I think you lose/are softlocked and need to die. Going through a load zone fixes this after the first revert.
+
 If on PC and Limit form is not vanilla do not use Ars Arcanum when the limit ends you will crash. Whether you use the finisher or stop early.
 
 There is still some limited T-posing on boses i've only experienced one and that was probably because I use an HD patch.
