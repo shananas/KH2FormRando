@@ -1,6 +1,6 @@
 If a form with less than 2 keyblades replaces Final Form do not use Fire or Blizzard it will freeze the game.
 
-Aparantly if a form that normally has two keyblades is replaced by anti form you cannot open chests in master form. DONT DO THAT.
+Apparently if a form that normally has two keyblades is replaced by anti form you cannot open chests. DONT DO THAT.
 
 If base Sora is Limit Form or Wisdom Form you can only revert once from a form without going through a load zone. So if youre fighting Luxord and get turned into a dice twice. you lose/are softlocked and need to die. Going through a load zone fixes this after the first revert. But it seems getting turned into a card acts differntly and you still revert.
 
