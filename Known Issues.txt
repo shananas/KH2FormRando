@@ -1,4 +1,4 @@
-If a form with less than 2 keyblades replaces Final Form do not use Fire or Blizzard it will freeze the game.
+If a Base Sora, Wisdom Sora, or Limit Sora replaces Final Form do not use Fire or Blizzard it will freeze the game.
 
 Apparently if a form that normally has two keyblades is replaced by anti form you cannot open chests. DONT DO THAT.
 
