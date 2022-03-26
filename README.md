@@ -7,11 +7,7 @@ KH2 Form Rando
 
 Read known issues for a few precautions as to not freeze/crash. Its pretty stable but there are like two game breaking (Freezing/Crashing) Bugs.
 
-If on PC and Limit form is not vanilla do not use Ars Arcanum when the limit ends you will crash. Whether you use the finisher or stop early.
-
-If a form with less than 2 keyblades replaces Final Form do not use Fire or Blizzard it will freeze the game.
-
-There still is some tposing in forms on bosses you normally wouldnt but I only encountered one on Saix when I went into valor which was base Sora. That also could be because I use an HD patch
+There may be some limited Tposing that still exists
 
 All forms including base sora are randomized. To rerandomize run Randomize.exe or Anti_Wont_Replace_Base.exe from the installed mod location.
 To easily get to it click on KH2FormRando in the mod manager and hit mods open mod folder.
@@ -23,6 +19,11 @@ If using Anti_Wont_Replace_Base.exe
 Then Anti form cannot be base sora. This is cause there are a few RCs that require a keybalde to hit the object to work. If Anti is base this can be gotten around by using a form but if you dont want to have to deal with that use this .exe
 
 Everything else is fully random. Form exp requirements stay vanilla(So in whatever replaced limit form you still need to use limits to level it). EX: if base sora replaes final have fun leveling up final as base sora.
+
+
+
+
+
 
 
 
