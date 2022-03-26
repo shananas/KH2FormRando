@@ -1,9 +1,15 @@
 If a Base Sora, Wisdom Sora, or Limit Sora replaces Final Form do not use Fire or Blizzard it will freeze the game.
+^Fixed but not implemented in the program so have to add lines manually to the mod.yml from magic.txt^ Needs more testing to make sure its fixed
 
-Apparently if a form that normally has two keyblades is replaced by anti form you cannot open chests. DONT DO THAT.
+Apparantly if a form that normally has two keyblades is replaced by anti form you cannot open chests. DONT DO THAT.
 
 If base Sora is Limit Form or Wisdom Form you can only revert once from a form without going through a load zone. So if youre fighting Luxord and get turned into a dice twice. you lose/are softlocked and need to die. Going through a load zone fixes this after the first revert. But it seems getting turned into a card acts differntly and you still revert.
 
+It has been brought to my attention that its not just Ars but depends on which form replaces limit form certain limits wont work.
+According to Zurph on the openkh discord
+-Master form strike raid finisher crashed, but cancelling early didn't.
+-Final form ars crashed, regardless of when you stop using it.
+-Anti form ragnarok crashed
 If on PC and Limit form is not vanilla do not use Ars Arcanum when the limit ends you will crash. Whether you use the finisher or stop early.
 
 There is still some limited T-posing on boses i've only experienced one and that was probably because I use an HD patch.
