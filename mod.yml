@@ -47,62 +47,11 @@ assets:
   method: copy
   source:
   - name: obj/P_EX100_KH1F.mset
+    type: internal
 - name: obj/P_EX100_TRIF.mset
   method: copy
   source:
-  - name: obj/P_EX100_TRIF_LIMIT.mset
-- name: 00battle.bin
-  method: binarc
-  source:
-  - name: ptya
-    type: list
-    method: copy
-    source:
-    - name: ptya_TRIF.list
-- name: obj/P_EX100_TRIF.mdlx
-  method: binarc
-  source:
-  - name: limi
-    type: bdx
-    method: copy
-    source:
-    - name: limi_0.bdx
-- name: obj/P_EX100_NM_TRIF.mdlx
-  method: binarc
-  source:
-  - name: limi
-    type: bdx
-    method: copy
-    source:
-    - name: limi_0.bdx
-- name: obj/P_EX100_TR_TRIF.mdlx
-  method: binarc
-  source:
-  - name: limi
-    type: bdx
-    method: copy
-    source:
-    - name: limi_0.bdx
-- name: obj/P_EX100_WI_TRIF.mdlx
-  method: binarc
-  source:
-  - name: limi
-    type: bdx
-    method: copy
-    source:
-    - name: limi_0.bdx
-- name: obj/P_EX100_XM_TRIF.mdlx
-  method: binarc
-  source:
-  - name: limi
-    type: bdx
-    method: copy
-    source:
-    - name: limi_0.bdx
-- name: obj/W_EX010_TRIF_R.mset
-  method: copy
-  source:
-  - name: obj/W_EX010_TRIF_R.mset
+  - name: obj/P_EX100_TRIF.mset
 - name: obj/P_EX100_ULTF.mset
   method: copy
   source:
