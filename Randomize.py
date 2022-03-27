@@ -44,33 +44,52 @@ h.close()
 def modymlcopy(old,new=False):
     if not new:
         new = old
-    h.write('- name: obj/'+old+'.mset\n')
+    h.write('- name: '+old+'.mset\n')
     h.write('  method: copy\n')
     h.write('  source:\n')
-    h.write('  - name: obj/'+new+'.mset\n')
+    h.write('  - name: '+new+'.mset\n')
 h = open(currentDir+'mod.yml','w')
 
 #Write static template
 h.write('title: Form Rando?\n')
 h.write('original Author: Shananas\n')
 h.write('assets:\n')
-h.write('- name: 00objentry.bin\n')
+h.write('- name: 00objentry.bin\n') #Implement the objentry changes
 h.write('  method: listpatch\n')
 h.write('  type: List\n')
 h.write('  source:\n')
 h.write('  - name: obj.yml\n')
 h.write('    type: objentry\n')
+modymlcopy('magic/FIRE_1.mag') #Fix Final Form's magic
+modymlcopy('magic/FIRE_2.mag')
+modymlcopy('magic/FIRE_3.mag')
+modymlcopy('magic/BLIZZARD_1.mag')
+modymlcopy('magic/BLIZZARD_2.mag')
+modymlcopy('magic/BLIZZARD_3.mag')
 
 #Write new form stuff
+newbase  = randomresult[0] #The form that replaces Base
 newlimit = randomresult[3] #The form that replaces Limit Form
 for i in range(7):
     form = forms[i]
+    if newbase == i and newbase in [2,3]: #Wisdom & Limit Effect Fix
+        for world in ['','_NM','_TR','_WI','_XM']:
+            h.write('- name: obj/P_EX100'+world+form+'.a.fm\n')
+            h.write('  multi:\n')
+            h.write('  - name: obj/P_EX100'+world+form+'.a.us\n')
+            h.write('  method: binarc\n')
+            h.write('  source:\n')
+            h.write('  - name: p_ex\n')
+            h.write('    type: pax\n')
+            h.write('    method: copy\n')
+            h.write('    source:\n')
+            h.write('    - name: obj/P_EX100'+form+'.pax\n')
     if newlimit == i:
         if newlimit == 3: #Limit Form is vanilla
-            modymlcopy('P_EX100_KH1F')
+            modymlcopy('obj/P_EX100_KH1F')
             h.write('    type: internal\n')
             continue
-        modymlcopy('P_EX100'+form,'P_EX100'+form+'_LIMIT') #Enable Limits
+        modymlcopy('obj/P_EX100'+form,'obj/P_EX100'+form+'_LIMIT') #Enable Limits
         
         #Ragnarok Fix
         h.write('- name: 00battle.bin\n')
@@ -97,8 +116,8 @@ for i in range(7):
         if newlimit != 6: #No changes in weapon moveset for Anti Form
             if newlimit in [1,4,5]: #Dual-wield forms
                 form += '_R'
-            modymlcopy('W_EX010'+form) #New Form's Weapon Moveset
+            modymlcopy('obj/W_EX010'+form) #New Form's Weapon Moveset
     else:
-        modymlcopy('P_EX100'+form) #Enable movement
+        modymlcopy('obj/P_EX100'+form) #Enable movement
 h.close()
 print(randomresult)
