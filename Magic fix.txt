@@ -1,4 +1,5 @@
 Add the below lines to the end of the mod.yml to fix magic if finals not vanilla. Put them in regardless since if final is vanilla nothing breaks. I'll bother num later trying to fix every bug at once.
+No Need to add these anymore num has made the change to the program
 
 - name: magic/BLIZZARD_1.mag
   method: copy
