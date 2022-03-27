@@ -7,30 +7,30 @@ assets:
   source:
   - name: obj.yml
     type: objentry
-- name: magic/FIRE_1.mag.mset
+- name: magic/FIRE_1.mag
   method: copy
   source:
-  - name: magic/FIRE_1.mag.mset
-- name: magic/FIRE_2.mag.mset
+  - name: magic/FIRE_1.mag
+- name: magic/FIRE_2.mag
   method: copy
   source:
-  - name: magic/FIRE_2.mag.mset
-- name: magic/FIRE_3.mag.mset
+  - name: magic/FIRE_2.mag
+- name: magic/FIRE_3.mag
   method: copy
   source:
-  - name: magic/FIRE_3.mag.mset
-- name: magic/BLIZZARD_1.mag.mset
+  - name: magic/FIRE_3.mag
+- name: magic/BLIZZARD_1.mag
   method: copy
   source:
-  - name: magic/BLIZZARD_1.mag.mset
-- name: magic/BLIZZARD_2.mag.mset
+  - name: magic/BLIZZARD_1.mag
+- name: magic/BLIZZARD_2.mag
   method: copy
   source:
-  - name: magic/BLIZZARD_2.mag.mset
-- name: magic/BLIZZARD_3.mag.mset
+  - name: magic/BLIZZARD_2.mag
+- name: magic/BLIZZARD_3.mag
   method: copy
   source:
-  - name: magic/BLIZZARD_3.mag.mset
+  - name: magic/BLIZZARD_3.mag
 - name: obj/P_EX100.mset
   method: copy
   source:
