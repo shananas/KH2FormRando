@@ -42,12 +42,16 @@ h.close()
 
 #Write to mod.yml
 def modymlcopy(old,new=False):
+    if not '.' in old:
+        old = 'obj/' + old + '.mset'
     if not new:
         new = old
-    h.write('- name: '+old+'.mset\n')
+    elif not '.' in new:
+        new = 'obj/' + new + '.mset'
+    h.write('- name: '+old+'\n')
     h.write('  method: copy\n')
     h.write('  source:\n')
-    h.write('  - name: '+new+'.mset\n')
+    h.write('  - name: '+new+'\n')
 h = open(currentDir+'mod.yml','w')
 
 #Write static template
@@ -86,10 +90,10 @@ for i in range(7):
             h.write('    - name: obj/P_EX100'+form+'.pax\n')
     if newlimit == i:
         if newlimit == 3: #Limit Form is vanilla
-            modymlcopy('obj/P_EX100_KH1F')
+            modymlcopy('P_EX100_KH1F')
             h.write('    type: internal\n')
             continue
-        modymlcopy('obj/P_EX100'+form,'obj/P_EX100'+form+'_LIMIT') #Enable Limits
+        modymlcopy('P_EX100'+form,'P_EX100'+form+'_LIMIT') #Enable Limits
         
         #Ragnarok Fix
         h.write('- name: 00battle.bin\n')
@@ -116,8 +120,8 @@ for i in range(7):
         if newlimit != 6: #No changes in weapon moveset for Anti Form
             if newlimit in [1,4,5]: #Dual-wield forms
                 form += '_R'
-            modymlcopy('obj/W_EX010'+form) #New Form's Weapon Moveset
+            modymlcopy('W_EX010'+form) #New Form's Weapon Moveset
     else:
-        modymlcopy('obj/P_EX100'+form) #Enable movement
+        modymlcopy('P_EX100'+form) #Enable movement
 h.close()
 print(randomresult)
