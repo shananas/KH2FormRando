@@ -7,30 +7,30 @@ assets:
   source:
   - name: obj.yml
     type: objentry
-- name: magic/FIRE_1.mag.mset
+- name: magic/FIRE_1.mag
   method: copy
   source:
-  - name: magic/FIRE_1.mag.mset
-- name: magic/FIRE_2.mag.mset
+  - name: magic/FIRE_1.mag
+- name: magic/FIRE_2.mag
   method: copy
   source:
-  - name: magic/FIRE_2.mag.mset
-- name: magic/FIRE_3.mag.mset
+  - name: magic/FIRE_2.mag
+- name: magic/FIRE_3.mag
   method: copy
   source:
-  - name: magic/FIRE_3.mag.mset
-- name: magic/BLIZZARD_1.mag.mset
+  - name: magic/FIRE_3.mag
+- name: magic/BLIZZARD_1.mag
   method: copy
   source:
-  - name: magic/BLIZZARD_1.mag.mset
-- name: magic/BLIZZARD_2.mag.mset
+  - name: magic/BLIZZARD_1.mag
+- name: magic/BLIZZARD_2.mag
   method: copy
   source:
-  - name: magic/BLIZZARD_2.mag.mset
-- name: magic/BLIZZARD_3.mag.mset
+  - name: magic/BLIZZARD_2.mag
+- name: magic/BLIZZARD_3.mag
   method: copy
   source:
-  - name: magic/BLIZZARD_3.mag.mset
+  - name: magic/BLIZZARD_3.mag
 - name: obj/P_EX100.mset
   method: copy
   source:
@@ -39,6 +39,56 @@ assets:
   method: copy
   source:
   - name: obj/P_EX100_BTLF.mset
+- name: obj/P_EX100_MAGF.a.fm
+  multi:
+  - name: obj/P_EX100_MAGF.a.us
+  method: binarc
+  source:
+  - name: p_ex
+    type: pax
+    method: copy
+    source:
+    - name: obj/P_EX100_MAGF.pax
+- name: obj/P_EX100_NM_MAGF.a.fm
+  multi:
+  - name: obj/P_EX100_NM_MAGF.a.us
+  method: binarc
+  source:
+  - name: p_ex
+    type: pax
+    method: copy
+    source:
+    - name: obj/P_EX100_MAGF.pax
+- name: obj/P_EX100_TR_MAGF.a.fm
+  multi:
+  - name: obj/P_EX100_TR_MAGF.a.us
+  method: binarc
+  source:
+  - name: p_ex
+    type: pax
+    method: copy
+    source:
+    - name: obj/P_EX100_MAGF.pax
+- name: obj/P_EX100_WI_MAGF.a.fm
+  multi:
+  - name: obj/P_EX100_WI_MAGF.a.us
+  method: binarc
+  source:
+  - name: p_ex
+    type: pax
+    method: copy
+    source:
+    - name: obj/P_EX100_MAGF.pax
+- name: obj/P_EX100_XM_MAGF.a.fm
+  multi:
+  - name: obj/P_EX100_XM_MAGF.a.us
+  method: binarc
+  source:
+  - name: p_ex
+    type: pax
+    method: copy
+    source:
+    - name: obj/P_EX100_MAGF.pax
 - name: obj/P_EX100_MAGF.mset
   method: copy
   source:
