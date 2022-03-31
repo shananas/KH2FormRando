@@ -2,6 +2,7 @@ Known Bugs
 
 Apparantly if a form that normally has two keyblades is replaced by anti form you cannot open chests. DONT DO THAT.
 
+If Base sora is anti form certain limits never end leaving you invincible normally this is to your benefit but in fights such as xigbar where he teleports away and wait for you to be "vulnerable" this is a softlock. To my knowledge donalds limits are fine but goofys are not. idk about other party members.
 
 It has been brought to my attention that its not just Ars but depends on which form replaces limit form certain limits wont work.
 According to Zurph on the openkh discord
