@@ -13,13 +13,6 @@ If on PC and Limit form is not vanilla do not use Ars Arcanum when the limit end
 
 There is still some limited T-posing on boses i've only experienced one and that was probably because I use an HD patch.
 -------------------------------------------------------------------------------------------------------------
-Fixed Bugs but needs more testing to be certain.
-
-If a Base Sora, Wisdom Sora, or Limit Sora replaces Final Form do not use Fire or Blizzard it will freeze the game.
-
-If base Sora is Limit Form or Wisdom Form you can only revert once from a form without going through a load zone. So if youre fighting Luxord and get turned into a dice twice. you lose/are softlocked and need to die. Going through a load zone fixes this after the first revert. But it seems getting turned into a card acts differntly and you still revert.
-
--------------------------------------------------------------------------------------------------------------
 Known "issues"
 
 While Antiform if it replaces limit form can use limits there is no keyblade so its specifically to level limit form up.

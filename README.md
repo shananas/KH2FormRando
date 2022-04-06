@@ -6,7 +6,7 @@ Thanks to 1234567890num for making the program to actually randomize it since I 
 PCSX 99.9% Stable
 PC three Bugs with Limit Form otherwise same as PCSX
 
-Read known issues for a few precautions as to not freeze/crash. Its pretty stable but there are like two game breaking (Freezing/Crashing) Bugs.
+Read known issues for a few precautions as to not freeze/crash. Its pretty stable but there is one crash on PCSX/PC then 3 PC specific Limit Form Bugs
 
 There may be some limited Tposing that still exists
 
