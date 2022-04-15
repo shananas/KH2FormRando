@@ -2,14 +2,13 @@ Known Bugs
 
 Apparantly if a form that normally has two keyblades is replaced by anti form you cannot open chests. DONT DO THAT.
 
-If Base sora is anti form certain limits never end leaving you invincible normally this is to your benefit but in fights such as xigbar where he teleports away and wait for you to be "vulnerable" this is a softlock. To my knowledge donalds limits are fine but goofys are not. idk about other party members.
+If Base sora is anti form certain limits never end leaving you invincible normally this is to your benefit but in fights such as xigbar where he teleports away and waits for you to be "vulnerable" this is a softlock. To my knowledge donalds limits are fine but goofys are not. idk about other party members.
 
 It has been brought to my attention that its not just Ars but depends on which form replaces limit form certain limits wont work.
 According to Zurph on the openkh discord
 -Master form strike raid finisher crashed, but cancelling early didn't.
 -Final form ars crashed, regardless of when you stop using it.
 -Anti form ragnarok crashed
-If on PC and Limit form is not vanilla do not use Ars Arcanum when the limit ends you will crash. Whether you use the finisher or stop early.
 
 There is still some limited T-posing on boses i've only experienced one and that was probably because I use an HD patch.
 -------------------------------------------------------------------------------------------------------------
