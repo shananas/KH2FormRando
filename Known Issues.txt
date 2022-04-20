@@ -1,16 +1,16 @@
 Known Bugs
 
-Apparantly if a form that normally has two keyblades is replaced by anti form you cannot open chests. DONT DO THAT.
+Apparantly if a Master Form is replaced by anti form you cannot open chests. DONT DO THAT.
 
-If Base sora is anti form certain limits never end leaving you invincible normally this is to your benefit but in fights such as xigbar where he teleports away and waits for you to be "vulnerable" this is a softlock. To my knowledge donalds limits are fine but goofys are not. idk about other party members.
+If Base sora is anti form certain limits never end leaving you invincible normally this is to your benefit but in fights such as xigbar where he teleports away and waits for you to be "vulnerable" this is a softlock. To my knowledge donalds limits are fine but goofys are not. idk about other party members. (I believe Xigbar is the only fight where this is a problem)
 
-It has been brought to my attention that its not just Ars but depends on which form replaces limit form certain limits wont work.
+Depending on which form replaces Limit form for PC ONLY there may be 1 extra bug
 According to Zurph on the openkh discord
 -Master form strike raid finisher crashed, but cancelling early didn't.
 -Final form ars crashed, regardless of when you stop using it.
 -Anti form ragnarok crashed
 
-There is still some limited T-posing on boses i've only experienced one and that was probably because I use an HD patch.
+There seems to be some Tposing on Boses but you can always just revert if you do Tpose goin into a form.
 -------------------------------------------------------------------------------------------------------------
 Known "issues"
 
