@@ -79,8 +79,7 @@ for i in range(7):
     if newbase == i and newbase in [2,3]: #Wisdom & Limit Effect Fix
         for world in ['','_NM','_TR','_WI','_XM']:
             h.write('- name: obj/P_EX100'+world+form+'.a.fm\n')
-            h.write('  multi:\n')
-            h.write('  - name: obj/P_EX100'+world+form+'.a.us\n')
+            h.write('  platform: ps2\n')
             h.write('  method: binarc\n')
             h.write('  source:\n')
             h.write('  - name: p_ex\n')
