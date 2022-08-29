@@ -70,6 +70,11 @@ modymlcopy('magic/FIRE_3.mag')
 modymlcopy('magic/BLIZZARD_1.mag')
 modymlcopy('magic/BLIZZARD_2.mag')
 modymlcopy('magic/BLIZZARD_3.mag')
+modymlcopy('remastered/magic/BLIZZARD_1.mag/-0.dds')
+modymlcopy('remastered/magic/BLIZZARD_2.mag/-0.dds')
+modymlcopy('remastered/magic/BLIZZARD_3.mag/-0.dds')
+modymlcopy('remastered/magic/FIRE_1.mag/-0.dds')
+modymlcopy('remastered/magic/FIRE_3.mag/-0.dds')
 
 #Write new form stuff
 newbase  = randomresult[0] #The form that replaces Base
