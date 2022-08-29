@@ -60,3 +60,31 @@ assets:
   method: copy
   source:
   - name: obj/P_EX100_HTLF.mset
+- name: remastered\magic\BLIZZARD_1.mag\-0.dds
+  method: copy
+  source:
+  - name: remastered\magic\BLIZZARD_1.mag\-0.dds
+- name: remastered\magic\BLIZZARD_2.mag\-0.dds
+  method: copy
+  source:
+  - name: remastered\magic\BLIZZARD_2.mag\-0.dds
+- name: remastered\magic\BLIZZARD_2.mag\-1.dds
+  method: copy
+  source:
+  - name: remastered\magic\BLIZZARD_2.mag\-1.dds
+- name: remastered\magic\BLIZZARD_3.mag\-0.dds
+  method: copy
+  source:
+  - name: remastered\magic\BLIZZARD_3.mag\-0.dds
+- name: remastered\magic\BLIZZARD_3.mag\-1.dds
+  method: copy
+  source:
+  - name: remastered\magic\BLIZZARD_3.mag\-1.dds
+- name: remastered\magic\FIRE_1.mag\-0.dds
+  method: copy
+  source:
+  - name: remastered\magic\FIRE_1.mag\-0.dds
+- name: remastered\magic\FIRE_3.mag\-0.dds
+  method: copy
+  source:
+  - name: remastered\magic\FIRE_3.mag\-0.dds
