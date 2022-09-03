@@ -61,30 +61,44 @@ assets:
   source:
   - name: obj/P_EX100_HTLF.mset
 - name: remastered\magic\BLIZZARD_1.mag\-0.dds
+  platform: pc
   method: copy
   source:
   - name: remastered\magic\BLIZZARD_1.mag\-0.dds
+    type: internal
 - name: remastered\magic\BLIZZARD_2.mag\-0.dds
+  platform: pc
   method: copy
   source:
   - name: remastered\magic\BLIZZARD_2.mag\-0.dds
+    type: internal
 - name: remastered\magic\BLIZZARD_2.mag\-1.dds
+  platform: pc
   method: copy
   source:
   - name: remastered\magic\BLIZZARD_2.mag\-1.dds
+    type: internal
 - name: remastered\magic\BLIZZARD_3.mag\-0.dds
+  platform: pc
   method: copy
   source:
   - name: remastered\magic\BLIZZARD_3.mag\-0.dds
+    type: internal
 - name: remastered\magic\BLIZZARD_3.mag\-1.dds
+  platform: pc
   method: copy
   source:
   - name: remastered\magic\BLIZZARD_3.mag\-1.dds
+    type: internal
 - name: remastered\magic\FIRE_1.mag\-0.dds
+  platform: pc
   method: copy
   source:
   - name: remastered\magic\FIRE_1.mag\-0.dds
+    type: internal
 - name: remastered\magic\FIRE_3.mag\-0.dds
+  platform: pc
   method: copy
   source:
   - name: remastered\magic\FIRE_3.mag\-0.dds
+    type: internal
