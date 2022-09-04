@@ -36,96 +36,96 @@ assets:
   method: copy
   source:
   - name: remastered/magic/FIRE_1.mag/-0.dds
+    type: internal
 - name: remastered/magic/FIRE_3.mag/-0.dds
   platform: pc
   method: copy
   source:
   - name: remastered/magic/FIRE_3.mag/-0.dds
+    type: internal
 - name: remastered/magic/BLIZZARD_1.mag/-0.dds
   platform: pc
   method: copy
   source:
   - name: remastered/magic/BLIZZARD_1.mag/-0.dds
+    type: internal
 - name: remastered/magic/BLIZZARD_2.mag/-0.dds
   platform: pc
   method: copy
   source:
   - name: remastered/magic/BLIZZARD_2.mag/-0.dds
+    type: internal
 - name: remastered/magic/BLIZZARD_2.mag/-1.dds
   platform: pc
   method: copy
   source:
   - name: remastered/magic/BLIZZARD_2.mag/-1.dds
+    type: internal
 - name: remastered/magic/BLIZZARD_3.mag/-0.dds
   platform: pc
   method: copy
   source:
   - name: remastered/magic/BLIZZARD_3.mag/-0.dds
+    type: internal
 - name: remastered/magic/BLIZZARD_3.mag/-1.dds
   platform: pc
   method: copy
   source:
   - name: remastered/magic/BLIZZARD_3.mag/-1.dds
+    type: internal
 - name: obj/P_EX100.mset
   method: copy
   source:
-  - name: obj/P_EX100_LIMIT.mset
-- name: 00battle.bin
-  method: binarc
-  source:
-  - name: ptya
-    type: list
-    method: copy
-    source:
-    - name: ptya.list
-- name: obj/P_EX100.mdlx
-  method: binarc
-  source:
-  - name: limi
-    type: bdx
-    method: copy
-    source:
-    - name: limi_0.bdx
-- name: obj/P_EX100_NM.mdlx
-  method: binarc
-  source:
-  - name: limi
-    type: bdx
-    method: copy
-    source:
-    - name: limi_0.bdx
-- name: obj/P_EX100_TR.mdlx
-  method: binarc
-  source:
-  - name: limi
-    type: bdx
-    method: copy
-    source:
-    - name: limi_0.bdx
-- name: obj/P_EX100_WI.mdlx
-  method: binarc
-  source:
-  - name: limi
-    type: bdx
-    method: copy
-    source:
-    - name: limi_0.bdx
-- name: obj/P_EX100_XM.mdlx
-  method: binarc
-  source:
-  - name: limi
-    type: bdx
-    method: copy
-    source:
-    - name: limi_0.bdx
-- name: obj/W_EX010.mset
-  method: copy
-  source:
-  - name: obj/W_EX010.mset
+  - name: obj/P_EX100.mset
 - name: obj/P_EX100_BTLF.mset
   method: copy
   source:
   - name: obj/P_EX100_BTLF.mset
+- name: obj/P_EX100_MAGF.a.fm
+  platform: ps2
+  method: binarc
+  source:
+  - name: p_ex
+    type: pax
+    method: copy
+    source:
+    - name: obj/P_EX100_MAGF.pax
+- name: obj/P_EX100_NM_MAGF.a.fm
+  platform: ps2
+  method: binarc
+  source:
+  - name: p_ex
+    type: pax
+    method: copy
+    source:
+    - name: obj/P_EX100_MAGF.pax
+- name: obj/P_EX100_TR_MAGF.a.fm
+  platform: ps2
+  method: binarc
+  source:
+  - name: p_ex
+    type: pax
+    method: copy
+    source:
+    - name: obj/P_EX100_MAGF.pax
+- name: obj/P_EX100_WI_MAGF.a.fm
+  platform: ps2
+  method: binarc
+  source:
+  - name: p_ex
+    type: pax
+    method: copy
+    source:
+    - name: obj/P_EX100_MAGF.pax
+- name: obj/P_EX100_XM_MAGF.a.fm
+  platform: ps2
+  method: binarc
+  source:
+  - name: p_ex
+    type: pax
+    method: copy
+    source:
+    - name: obj/P_EX100_MAGF.pax
 - name: obj/P_EX100_MAGF.mset
   method: copy
   source:
@@ -134,6 +134,7 @@ assets:
   method: copy
   source:
   - name: obj/P_EX100_KH1F.mset
+    type: internal
 - name: obj/P_EX100_TRIF.mset
   method: copy
   source:

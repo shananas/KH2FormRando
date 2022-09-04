@@ -40,7 +40,7 @@ yaml.dump(g,h)
 h.close()
 
 #Write to mod.yml
-def modymlcopy(old,new=False,platform=False):
+def modymlcopy(old,new=False,platform=False,internal=False):
     if not '.' in old:
         old = 'obj/' + old + '.mset'
     if not new:
@@ -54,6 +54,8 @@ def modymlcopy(old,new=False,platform=False):
     h.write('  method: copy\n')
     h.write('  source:\n')
     h.write('  - name: '+new+'\n')
+    if internal:
+        h.write('    type: internal\n')
 
 #Write static template
 h = open(currentDir+'mod.yml','w')
@@ -72,13 +74,13 @@ modymlcopy('magic/FIRE_3.mag')
 modymlcopy('magic/BLIZZARD_1.mag')
 modymlcopy('magic/BLIZZARD_2.mag')
 modymlcopy('magic/BLIZZARD_3.mag')
-modymlcopy('remastered/magic/FIRE_1.mag/-0.dds',platform='pc')
-modymlcopy('remastered/magic/FIRE_3.mag/-0.dds',platform='pc')
-modymlcopy('remastered/magic/BLIZZARD_1.mag/-0.dds',platform='pc')
-modymlcopy('remastered/magic/BLIZZARD_2.mag/-0.dds',platform='pc')
-modymlcopy('remastered/magic/BLIZZARD_2.mag/-1.dds',platform='pc')
-modymlcopy('remastered/magic/BLIZZARD_3.mag/-0.dds',platform='pc')
-modymlcopy('remastered/magic/BLIZZARD_3.mag/-1.dds',platform='pc')
+modymlcopy('remastered/magic/FIRE_1.mag/-0.dds',platform='pc',internal=True)
+modymlcopy('remastered/magic/FIRE_3.mag/-0.dds',platform='pc',internal=True)
+modymlcopy('remastered/magic/BLIZZARD_1.mag/-0.dds',platform='pc',internal=True)
+modymlcopy('remastered/magic/BLIZZARD_2.mag/-0.dds',platform='pc',internal=True)
+modymlcopy('remastered/magic/BLIZZARD_2.mag/-1.dds',platform='pc',internal=True)
+modymlcopy('remastered/magic/BLIZZARD_3.mag/-0.dds',platform='pc',internal=True)
+modymlcopy('remastered/magic/BLIZZARD_3.mag/-1.dds',platform='pc',internal=True)
 
 #Write new form stuff
 newbase  = randomresult[0] #The form that replaces Base
@@ -98,8 +100,7 @@ for i in range(7):
             h.write('    - name: obj/P_EX100'+form+'.pax\n')
     if newlimit == i:
         if newlimit == 3: #Limit Form is vanilla
-            modymlcopy('P_EX100_KH1F')
-            h.write('    type: internal\n')
+            modymlcopy('P_EX100_KH1F',internal=True)
             continue
         modymlcopy('P_EX100'+form,'P_EX100'+form+'_LIMIT') #Enable Limits
         
