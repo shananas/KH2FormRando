@@ -39,22 +39,24 @@ h = open(currentDir+'obj.yml','w')
 yaml.dump(g,h)
 h.close()
 
-
 #Write to mod.yml
-def modymlcopy(old,new=False):
+def modymlcopy(old,new=False,platform=False):
     if not '.' in old:
         old = 'obj/' + old + '.mset'
     if not new:
         new = old
     elif not '.' in new:
         new = 'obj/' + new + '.mset'
+
     h.write('- name: '+old+'\n')
+    if platform:
+        h.write('  platform: '+platform+'\n')
     h.write('  method: copy\n')
     h.write('  source:\n')
     h.write('  - name: '+new+'\n')
-h = open(currentDir+'mod.yml','w')
 
 #Write static template
+h = open(currentDir+'mod.yml','w')
 h.write('title: Form Rando?\n')
 h.write('original Author: Shananas\n')
 h.write('assets:\n')
@@ -70,6 +72,13 @@ modymlcopy('magic/FIRE_3.mag')
 modymlcopy('magic/BLIZZARD_1.mag')
 modymlcopy('magic/BLIZZARD_2.mag')
 modymlcopy('magic/BLIZZARD_3.mag')
+modymlcopy('remastered/magic/FIRE_1.mag/-0.dds',platform='pc')
+modymlcopy('remastered/magic/FIRE_3.mag/-0.dds',platform='pc')
+modymlcopy('remastered/magic/BLIZZARD_1.mag/-0.dds',platform='pc')
+modymlcopy('remastered/magic/BLIZZARD_2.mag/-0.dds',platform='pc')
+modymlcopy('remastered/magic/BLIZZARD_2.mag/-1.dds',platform='pc')
+modymlcopy('remastered/magic/BLIZZARD_3.mag/-0.dds',platform='pc')
+modymlcopy('remastered/magic/BLIZZARD_3.mag/-1.dds',platform='pc')
 
 #Write new form stuff
 newbase  = randomresult[0] #The form that replaces Base
