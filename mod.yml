@@ -31,6 +31,48 @@ assets:
   method: copy
   source:
   - name: magic/BLIZZARD_3.mag
+- name: remastered/magic/FIRE_1.mag/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/magic/FIRE_1.mag/-0.dds
+    type: internal
+- name: remastered/magic/FIRE_3.mag/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/magic/FIRE_3.mag/-0.dds
+    type: internal
+- name: remastered/magic/BLIZZARD_1.mag/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/magic/BLIZZARD_1.mag/-0.dds
+    type: internal
+- name: remastered/magic/BLIZZARD_2.mag/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/magic/BLIZZARD_2.mag/-0.dds
+    type: internal
+- name: remastered/magic/BLIZZARD_2.mag/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/magic/BLIZZARD_2.mag/-1.dds
+    type: internal
+- name: remastered/magic/BLIZZARD_3.mag/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/magic/BLIZZARD_3.mag/-0.dds
+    type: internal
+- name: remastered/magic/BLIZZARD_3.mag/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/magic/BLIZZARD_3.mag/-1.dds
+    type: internal
 - name: obj/P_EX100.mset
   method: copy
   source:
@@ -39,6 +81,51 @@ assets:
   method: copy
   source:
   - name: obj/P_EX100_BTLF.mset
+- name: obj/P_EX100_MAGF.a.fm
+  platform: ps2
+  method: binarc
+  source:
+  - name: p_ex
+    type: pax
+    method: copy
+    source:
+    - name: obj/P_EX100_MAGF.pax
+- name: obj/P_EX100_NM_MAGF.a.fm
+  platform: ps2
+  method: binarc
+  source:
+  - name: p_ex
+    type: pax
+    method: copy
+    source:
+    - name: obj/P_EX100_MAGF.pax
+- name: obj/P_EX100_TR_MAGF.a.fm
+  platform: ps2
+  method: binarc
+  source:
+  - name: p_ex
+    type: pax
+    method: copy
+    source:
+    - name: obj/P_EX100_MAGF.pax
+- name: obj/P_EX100_WI_MAGF.a.fm
+  platform: ps2
+  method: binarc
+  source:
+  - name: p_ex
+    type: pax
+    method: copy
+    source:
+    - name: obj/P_EX100_MAGF.pax
+- name: obj/P_EX100_XM_MAGF.a.fm
+  platform: ps2
+  method: binarc
+  source:
+  - name: p_ex
+    type: pax
+    method: copy
+    source:
+    - name: obj/P_EX100_MAGF.pax
 - name: obj/P_EX100_MAGF.mset
   method: copy
   source:
