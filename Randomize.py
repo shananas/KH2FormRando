@@ -90,7 +90,11 @@ for i in range(7):
     if newbase == i and newbase in [2,3]: #Wisdom & Limit Effect Fix
         for world in ['','_NM','_TR','_WI','_XM']:
             h.write('- name: obj/P_EX100'+world+form+'.a.fm\n')
-            h.write('  platform: ps2\n')
+            if newbase == 2:
+                h.write('  platform: ps2\n')
+            elif newbase == 3:
+                h.write('  multi:\n')
+                h.write('  - name: obj/P_EX100'+world+form+'.a.us\n')
             h.write('  method: binarc\n')
             h.write('  source:\n')
             h.write('  - name: p_ex\n')
@@ -132,5 +136,9 @@ for i in range(7):
             modymlcopy('W_EX010'+form) #New Form's Weapon Moveset
     else:
         modymlcopy('P_EX100'+form) #Enable movement
+if 1 in randomresult[:5:2] or randomresult[5] == 1:
+    modymlcopy('W_EX010_BTLF_R','W_EX010_BTLF_R_MAGIC')
+if 3 in randomresult[:5:2] or randomresult[5] == 3:
+    modymlcopy('W_EX010_KH1F','W_EX010_KH1F_MAGIC')
 h.close()
 print(randomresult)
