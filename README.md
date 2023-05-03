@@ -3,8 +3,7 @@ KH2FormRando
 Credits since they cant be in the mod.yml easily 
 Thanks to 1234567890num for making the program to actually randomize it since I dont know how to make anything other than a console application. Also continuing to improve it and add everything the .exe can do. All file edits initially done by me. Thanks to DA for the knowledge by doing an Anti Form mod first. Also thanks to Zurph from the openkh discord again since anytime I have a question he always has an easy answer.
 
-PCSX 99.9% Stable
-PC three Bugs with Limit Form otherwise same as PCSX
+PC/PCSX 99.9% Stable
 
 Read known issues for a few precautions as to not freeze/crash. Its pretty stable but there is one crash on PCSX/PC then 3 PC specific Limit Form Bugs
 

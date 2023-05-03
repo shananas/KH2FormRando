@@ -1,18 +1,12 @@
 Known Bugs
 
-Apparantly if a Master Form is replaced by anti form you cannot open chests. DONT DO THAT.
+Apparantly if a Master Form is replaced by anti form you cannot open chests so dont.
 
 If Base sora is anti form certain limits never end leaving you invincible normally this is to your benefit but in fights such as xigbar where he teleports away and waits for you to be "vulnerable" this is a softlock. To my knowledge donalds limits are fine but goofys are not. idk about other party members. (I believe Xigbar is the only fight where this is a problem)
 
-PC can also get stuck in a form if base dora is replaced by wisdon form or limit form. I have fixed this on emulator but have not found an acceptable solution on PC. If you go into a second form without room transitioning you will be stuck in that form unable to revert manually or by reaching 0 form gague. If itt is your first time going into a form you can/will revert normally.
+PC can also get stuck in a form if base sora is replaced by wisdom. I have fixed this on emulator (only the limit form fix works on both PC/EMU) but have not found a solution for wisdom form on PC since the fix crashes the game. If you go into a second form without room transitioning you will be stuck in that form unable to revert manually or by reaching 0 form gague. If it is your first time reverting from a form in that room you can/will revert normally.
 
-Depending on which form replaces Limit form for PC ONLY there may be 1 extra bug
-According to Zurph on the openkh discord
--Master form strike raid finisher crashed, but cancelling early didn't.
--Final form ars crashed, regardless of when you stop using it.
--Anti form ragnarok crashed
-
-There seems to be some Tposing on Boses but you can always just revert if you do Tpose goin into a form.
+There seems to be some Tposing on Bosses but you can always just revert if you do Tpose going into a form.
 -------------------------------------------------------------------------------------------------------------
 Known "issues"
 
