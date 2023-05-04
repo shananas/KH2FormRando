@@ -89,7 +89,6 @@ assets:
   method: copy
   source:
   - name: obj/P_EX100_KH1F.mset
-    type: internal
 - name: obj/P_EX100_TRIF.mset
   method: copy
   source:
@@ -97,8 +96,68 @@ assets:
 - name: obj/P_EX100_ULTF.mset
   method: copy
   source:
-  - name: obj/P_EX100_ULTF.mset
+  - name: obj/P_EX100_ULTF_LIMIT.mset
+- name: 00battle.bin
+  method: binarc
+  source:
+  - name: ptya
+    type: list
+    method: copy
+    source:
+    - name: ptya_ULTF.list
+- name: obj/P_EX100_ULTF.mdlx
+  method: binarc
+  source:
+  - name: limi
+    type: bdx
+    method: copy
+    source:
+    - name: limi_0.bdx
+- name: obj/P_EX100_NM_ULTF.mdlx
+  method: binarc
+  source:
+  - name: limi
+    type: bdx
+    method: copy
+    source:
+    - name: limi_0.bdx
+- name: obj/P_EX100_TR_ULTF.mdlx
+  method: binarc
+  source:
+  - name: limi
+    type: bdx
+    method: copy
+    source:
+    - name: limi_0.bdx
+- name: obj/P_EX100_WI_ULTF.mdlx
+  method: binarc
+  source:
+  - name: limi
+    type: bdx
+    method: copy
+    source:
+    - name: limi_0.bdx
+- name: obj/P_EX100_XM_ULTF.mdlx
+  method: binarc
+  source:
+  - name: limi
+    type: bdx
+    method: copy
+    source:
+    - name: limi_0.bdx
+- name: obj/W_EX010_ULTF_R.mset
+  method: copy
+  source:
+  - name: obj/W_EX010_ULTF_R.mset
 - name: obj/P_EX100_HTLF.mset
   method: copy
   source:
   - name: obj/P_EX100_HTLF.mset
+- name: obj/W_EX010_BTLF_R.mset
+  method: copy
+  source:
+  - name: obj/W_EX010_BTLF_R_MAGIC.mset
+- name: obj/W_EX010_KH1F.mset
+  method: copy
+  source:
+  - name: obj/W_EX010_KH1F_MAGIC.mset

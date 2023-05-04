@@ -92,9 +92,17 @@ for i in range(7):
             h.write('- name: obj/P_EX100'+world+form+'.a.fm\n')
             if newbase == 2:
                 h.write('  platform: ps2\n')
-            elif newbase == 3:
-                h.write('  multi:\n')
-                h.write('  - name: obj/P_EX100'+world+form+'.a.us\n')
+            h.write('  method: binarc\n')
+            h.write('  source:\n')
+            h.write('  - name: p_ex\n')
+            h.write('    type: pax\n')
+            h.write('    method: copy\n')
+            h.write('    source:\n')
+            h.write('    - name: obj/P_EX100'+form+'.pax\n')
+            if newbase == 2: #'Base replaced by Wisdom' doesn't work on PC
+                continue
+            h.write('- name: obj/P_EX100'+world+form+'.a.us\n')
+            h.write('  platform: pc\n')
             h.write('  method: binarc\n')
             h.write('  source:\n')
             h.write('  - name: p_ex\n')
@@ -136,9 +144,12 @@ for i in range(7):
             modymlcopy('W_EX010'+form) #New Form's Weapon Moveset
     else:
         modymlcopy('P_EX100'+form) #Enable movement
-if 1 in randomresult[:5:2] or randomresult[5] == 1:
-    modymlcopy('W_EX010_BTLF_R','W_EX010_BTLF_R_MAGIC')
-if 3 in randomresult[:5:2] or randomresult[5] == 3:
-    modymlcopy('W_EX010_KH1F','W_EX010_KH1F_MAGIC')
+        
+for i in [0,2,4,5]: #Magic MSET
+    if randomresult[i] == 1:
+        modymlcopy('W_EX010_BTLF_R','W_EX010_BTLF_R_MAGIC')
+    elif randomresult[i] == 3:
+        modymlcopy('W_EX010_KH1F','W_EX010_KH1F_MAGIC')
+
 h.close()
 print(randomresult)
