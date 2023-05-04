@@ -5,12 +5,12 @@ Thanks to 1234567890num for making the program to actually randomize it since I 
 
 PC/PCSX 99.9% Stable
 
-Read known issues for a few precautions as to not freeze/crash. Its pretty stable but there is one crash on PCSX/PC then 3 PC specific Limit Form Bugs
+Read known issues for a few precautions as to not freeze/crash. Its pretty stable but there is one crash on PCSX/PC
 
 There may be some limited Tposing that still exists
 
 All forms including base sora are randomized. To rerandomize run Randomize.exe or Anti_Wont_Replace_Base.exe from the installed mod location.
-To easily get to it click on KH2FormRando in the mod manager and hit mods open mod folder.
+To easily get to it click on KH2FormRando in the mod manager and click mods open mod folder.
 
 If using the Randomize.exe
 Base sora can only be regular Sora, Wisdom Form, Limit Form, or Anti Form.
