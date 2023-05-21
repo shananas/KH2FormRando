@@ -4,11 +4,6 @@ import random
 
 currentDir = sys.argv[0].replace((sys.argv[0].split('\\')[-1]),'')
 
-#Load obj.yml Template
-f = open(currentDir+'objtemplate.yml')
-f = yaml.safe_load(f)
-g = {}
-
 #UCM for each of Sora's worlds
 forms = ['','_BTLF','_MAGF','_KH1F','_TRIF','_ULTF','_HTLF']
 ZZ = [  84,  85,  86,2397,  87,  88,  89]
@@ -25,6 +20,10 @@ random.shuffle(randomresult)
 while not(randomresult[0] in [0,2,3,6] and randomresult[3] != 2):
     random.shuffle(randomresult)
 
+#Load obj.yml Template
+f = open(currentDir+'objtemplate.yml')
+f = yaml.safe_load(f)
+g = {}
 #Make the new dictionary
 for world in [ZZ,NM,TR,WI,XM]:
     for i in range(7):
@@ -33,10 +32,35 @@ for world in [ZZ,NM,TR,WI,XM]:
         g[world[i]]['ObjectId'] = world[i] #Fix ObjectId
         if i == 0: #Enable Movement on whatever replaces Base Sora
             g[world[i]]['ObjectForm'] = 'SoraRoxasDefault'
-
 #Write new dictionary to obj.yml
 h = open(currentDir+'obj.yml','w')
 yaml.dump(g,h)
+h.close()
+
+#Load plrp.yml Template
+f = open(currentDir+'plrptemplate.yml')
+f = yaml.safe_load(f)
+f = f[randomresult.index(0)-1] #Only load whatever replaces base
+g = []
+h = open(currentDir+'Abilities.yml')
+h = yaml.safe_load(h)
+#Add all default non-active abilities
+for i in f['Items']:
+    if i in h['formAbilities']:
+        continue
+    g.append(i)
+#Coin flip per ability
+for i in h['baseAbilities']:
+    if random.randint(0,1) == 0:
+        continue
+    g.append(i)
+    print(hex(i))
+    if len(g) >= 24: #Can only store 24 items per form
+        break
+#Write new dictionary to plrp.yml
+f['Items'] = g
+h = open(currentDir+'plrp.yml','w')
+yaml.dump([f],h)
 h.close()
 
 #Write to mod.yml
@@ -130,16 +154,6 @@ for i in range(7):
             continue
         modymlcopy('P_EX100'+form,'P_EX100'+form+'_LIMIT') #Enable Limits
         
-        #Ragnarok Fix
-        h.write('- name: 00battle.bin\n')
-        h.write('  method: binarc\n')
-        h.write('  source:\n')
-        h.write('  - name: ptya\n')
-        h.write('    type: list\n')
-        h.write('    method: copy\n')
-        h.write('    source:\n')
-        h.write('    - name: ptya'+form+'.list\n')
-        
         #Limits' AI for New Form's MDLX
         for world in ['','_NM','_TR','_WI','_XM']:
             h.write('- name: obj/P_EX100'+world+form+'.mdlx\n')
@@ -156,7 +170,7 @@ for i in range(7):
             form += '_R'
         modymlcopy('W_EX010'+form,'W_EX010'+form+'_LIMIT') #New form's weapon MSET
 
-    elif i == 5 and i in (randomresult[2],randomresult[4]): #Final replaces Wisdom or Master
+    elif i == 5 and randomresult.index(i) in [2,4]: #Final replaces Wisdom or Master
         modymlcopy('P_EX100_ULTF', 'P_EX100_ULTF_BLIZZ') #Special MSET for shorter Blizzard finisher
     else:
         modymlcopy('P_EX100'+form) #Enable movement abilities
@@ -169,5 +183,22 @@ for i in [0,2,4,5]: #Magic MSET
     elif randomresult[i] == 3:
         modymlcopy('W_EX010_KH1F','W_EX010_KH1F_MAGIC')
 
+h.write('- name: 00battle.bin\n')
+h.write('  method: binarc\n')
+h.write('  source:\n')
+h.write('  - name: ptya\n') #Ragnarok Fix
+h.write('    type: list\n')
+h.write('    method: copy\n')
+h.write('    source:\n')
+h.write('    - name: ptya'+forms[newlimit]+'.list\n')
+#Base Sora's active abilities (still may edit 00battle.bin)
+if randomresult[0] != 0:
+    h.write('  - name: plrp\n') 
+    h.write('    type: list\n')
+    h.write('    method: copy\n')
+    h.write('    source:\n')
+    h.write('    - name: plrp.yml\n')
+        
 h.close()
 print(randomresult)
+#input()
