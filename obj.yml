@@ -1,5 +1,5 @@
 84:
-  AnimationName: P_EX100.mset
+  AnimationName: P_EX100_KH1F.mset
   Before: false
   DrawPriority: 0
   FixColor: false
@@ -7,8 +7,8 @@
   Fly: false
   Hift: false
   IsPirate: false
-  ModelName: P_EX100
-  NeoMoveset: 1
+  ModelName: P_EX100_KH1F
+  NeoMoveset: 66
   NeoStatus: 1
   NoApdx: false
   ObjectForm: SoraRoxasDefault
@@ -29,21 +29,21 @@
   WeaponJoint: 1
   Weight: 100
 85:
-  AnimationName: P_EX100_TRIF.mset
+  AnimationName: P_EX100_HTLF.mset
   Before: false
   DrawPriority: 0
-  FixColor: false
-  Flags: 0
+  FixColor: true
+  Flags: 4
   Fly: false
   Hift: false
   IsPirate: false
-  ModelName: P_EX100_TRIF
-  NeoMoveset: 4
+  ModelName: P_EX100_HTLF
+  NeoMoveset: 6
   NeoStatus: 1
   NoApdx: false
-  ObjectForm: MasterForm
+  ObjectForm: AntiForm
   ObjectId: 85
-  ObjectShadowSize: MiddleShadow
+  ObjectShadowSize: NoShadow
   ObjectTargetType: M
   ObjectType: PLAYER
   Padding: 0
@@ -57,7 +57,7 @@
   SubType: 0
   WallOcclusion: false
   WeaponJoint: 1
-  Weight: 100
+  Weight: 25
 86:
   AnimationName: P_EX100_MAGF.mset
   Before: false
@@ -89,7 +89,7 @@
   WeaponJoint: 1
   Weight: 100
 87:
-  AnimationName: P_EX100_BTLF.mset
+  AnimationName: P_EX100_TRIF.mset
   Before: false
   DrawPriority: 0
   FixColor: false
@@ -97,11 +97,11 @@
   Fly: false
   Hift: false
   IsPirate: false
-  ModelName: P_EX100_BTLF
-  NeoMoveset: 2
+  ModelName: P_EX100_TRIF
+  NeoMoveset: 4
   NeoStatus: 1
   NoApdx: false
-  ObjectForm: ValorForm
+  ObjectForm: MasterForm
   ObjectId: 87
   ObjectShadowSize: MiddleShadow
   ObjectTargetType: M
@@ -119,21 +119,21 @@
   WeaponJoint: 1
   Weight: 100
 88:
-  AnimationName: P_EX100_HTLF.mset
+  AnimationName: P_EX100.mset
   Before: false
   DrawPriority: 0
-  FixColor: true
-  Flags: 4
+  FixColor: false
+  Flags: 0
   Fly: false
   Hift: false
   IsPirate: false
-  ModelName: P_EX100_HTLF
-  NeoMoveset: 6
+  ModelName: P_EX100
+  NeoMoveset: 1
   NeoStatus: 1
   NoApdx: false
-  ObjectForm: AntiForm
+  ObjectForm: SoraRoxasDefault
   ObjectId: 88
-  ObjectShadowSize: NoShadow
+  ObjectShadowSize: MiddleShadow
   ObjectTargetType: M
   ObjectType: PLAYER
   Padding: 0
@@ -147,7 +147,7 @@
   SubType: 0
   WallOcclusion: false
   WeaponJoint: 1
-  Weight: 25
+  Weight: 100
 89:
   AnimationName: P_EX100_ULTF.mset
   Before: false
@@ -179,7 +179,7 @@
   WeaponJoint: 1
   Weight: 100
 693:
-  AnimationName: P_EX100.mset
+  AnimationName: P_EX100_KH1F.mset
   Before: false
   DrawPriority: 0
   FixColor: false
@@ -187,8 +187,8 @@
   Fly: false
   Hift: false
   IsPirate: false
-  ModelName: P_EX100_NM
-  NeoMoveset: 11
+  ModelName: P_EX100_NM_KH1F
+  NeoMoveset: 67
   NeoStatus: 1
   NoApdx: false
   ObjectForm: SoraRoxasDefault
@@ -209,21 +209,21 @@
   WeaponJoint: 1
   Weight: 100
 998:
-  AnimationName: P_EX100_TRIF.mset
+  AnimationName: P_EX100_HTLF.mset
   Before: false
   DrawPriority: 0
-  FixColor: false
-  Flags: 0
+  FixColor: true
+  Flags: 4
   Fly: false
   Hift: false
   IsPirate: false
-  ModelName: P_EX100_NM_TRIF
-  NeoMoveset: 14
+  ModelName: P_EX100_NM_HTLF
+  NeoMoveset: 16
   NeoStatus: 1
   NoApdx: false
-  ObjectForm: MasterForm
+  ObjectForm: AntiForm
   ObjectId: 998
-  ObjectShadowSize: MiddleShadow
+  ObjectShadowSize: NoShadow
   ObjectTargetType: M
   ObjectType: PLAYER
   Padding: 0
@@ -237,7 +237,7 @@
   SubType: 0
   WallOcclusion: false
   WeaponJoint: 1
-  Weight: 100
+  Weight: 25
 999:
   AnimationName: P_EX100_MAGF.mset
   Before: false
@@ -269,7 +269,7 @@
   WeaponJoint: 1
   Weight: 100
 1000:
-  AnimationName: P_EX100_BTLF.mset
+  AnimationName: P_EX100_TRIF.mset
   Before: false
   DrawPriority: 0
   FixColor: false
@@ -277,11 +277,11 @@
   Fly: false
   Hift: false
   IsPirate: false
-  ModelName: P_EX100_NM_BTLF
-  NeoMoveset: 12
+  ModelName: P_EX100_NM_TRIF
+  NeoMoveset: 14
   NeoStatus: 1
   NoApdx: false
-  ObjectForm: ValorForm
+  ObjectForm: MasterForm
   ObjectId: 1000
   ObjectShadowSize: MiddleShadow
   ObjectTargetType: M
@@ -299,21 +299,21 @@
   WeaponJoint: 1
   Weight: 100
 1001:
-  AnimationName: P_EX100_HTLF.mset
+  AnimationName: P_EX100.mset
   Before: false
   DrawPriority: 0
-  FixColor: true
-  Flags: 4
+  FixColor: false
+  Flags: 0
   Fly: false
   Hift: false
   IsPirate: false
-  ModelName: P_EX100_NM_HTLF
-  NeoMoveset: 16
+  ModelName: P_EX100_NM
+  NeoMoveset: 11
   NeoStatus: 1
   NoApdx: false
-  ObjectForm: AntiForm
+  ObjectForm: SoraRoxasDefault
   ObjectId: 1001
-  ObjectShadowSize: NoShadow
+  ObjectShadowSize: MiddleShadow
   ObjectTargetType: M
   ObjectType: PLAYER
   Padding: 0
@@ -327,7 +327,7 @@
   SubType: 0
   WallOcclusion: false
   WeaponJoint: 1
-  Weight: 25
+  Weight: 100
 1002:
   AnimationName: P_EX100_ULTF.mset
   Before: false
@@ -359,7 +359,7 @@
   WeaponJoint: 1
   Weight: 100
 1622:
-  AnimationName: P_EX100.mset
+  AnimationName: P_EX100_KH1F.mset
   Before: false
   DrawPriority: 0
   FixColor: false
@@ -367,8 +367,8 @@
   Fly: false
   Hift: false
   IsPirate: false
-  ModelName: P_EX100_TR
-  NeoMoveset: 37
+  ModelName: P_EX100_TR_KH1F
+  NeoMoveset: 68
   NeoStatus: 1
   NoApdx: false
   ObjectForm: SoraRoxasDefault
@@ -389,7 +389,7 @@
   WeaponJoint: 1
   Weight: 100
 1623:
-  AnimationName: P_EX100.mset
+  AnimationName: P_EX100_KH1F.mset
   Before: false
   DrawPriority: 0
   FixColor: false
@@ -397,8 +397,8 @@
   Fly: false
   Hift: false
   IsPirate: false
-  ModelName: P_EX100_WI
-  NeoMoveset: 43
+  ModelName: P_EX100_WI_KH1F
+  NeoMoveset: 69
   NeoStatus: 1
   NoApdx: false
   ObjectForm: SoraRoxasDefault
@@ -419,21 +419,21 @@
   WeaponJoint: 1
   Weight: 100
 1641:
-  AnimationName: P_EX100_TRIF.mset
+  AnimationName: P_EX100_HTLF.mset
   Before: false
   DrawPriority: 0
-  FixColor: false
-  Flags: 0
+  FixColor: true
+  Flags: 4
   Fly: false
   Hift: false
   IsPirate: false
-  ModelName: P_EX100_TR_TRIF
-  NeoMoveset: 40
+  ModelName: P_EX100_TR_HTLF
+  NeoMoveset: 42
   NeoStatus: 1
   NoApdx: false
-  ObjectForm: MasterForm
+  ObjectForm: AntiForm
   ObjectId: 1641
-  ObjectShadowSize: MiddleShadow
+  ObjectShadowSize: NoShadow
   ObjectTargetType: M
   ObjectType: PLAYER
   Padding: 0
@@ -447,23 +447,23 @@
   SubType: 0
   WallOcclusion: false
   WeaponJoint: 1
-  Weight: 100
+  Weight: 25
 1642:
-  AnimationName: P_EX100_TRIF.mset
+  AnimationName: P_EX100_HTLF.mset
   Before: false
   DrawPriority: 0
-  FixColor: false
-  Flags: 0
+  FixColor: true
+  Flags: 4
   Fly: false
   Hift: false
   IsPirate: false
-  ModelName: P_EX100_WI_TRIF
-  NeoMoveset: 46
+  ModelName: P_EX100_WI_HTLF
+  NeoMoveset: 48
   NeoStatus: 1
   NoApdx: false
-  ObjectForm: MasterForm
+  ObjectForm: AntiForm
   ObjectId: 1642
-  ObjectShadowSize: MiddleShadow
+  ObjectShadowSize: NoShadow
   ObjectTargetType: M
   ObjectType: PLAYER
   Padding: 0
@@ -477,7 +477,7 @@
   SubType: 0
   WallOcclusion: false
   WeaponJoint: 1
-  Weight: 100
+  Weight: 25
 1643:
   AnimationName: P_EX100_MAGF.mset
   Before: false
@@ -539,7 +539,7 @@
   WeaponJoint: 1
   Weight: 100
 1645:
-  AnimationName: P_EX100_BTLF.mset
+  AnimationName: P_EX100_TRIF.mset
   Before: false
   DrawPriority: 0
   FixColor: false
@@ -547,11 +547,11 @@
   Fly: false
   Hift: false
   IsPirate: false
-  ModelName: P_EX100_TR_BTLF
-  NeoMoveset: 38
+  ModelName: P_EX100_TR_TRIF
+  NeoMoveset: 40
   NeoStatus: 1
   NoApdx: false
-  ObjectForm: ValorForm
+  ObjectForm: MasterForm
   ObjectId: 1645
   ObjectShadowSize: MiddleShadow
   ObjectTargetType: M
@@ -569,7 +569,7 @@
   WeaponJoint: 1
   Weight: 100
 1646:
-  AnimationName: P_EX100_BTLF.mset
+  AnimationName: P_EX100_TRIF.mset
   Before: false
   DrawPriority: 0
   FixColor: false
@@ -577,11 +577,11 @@
   Fly: false
   Hift: false
   IsPirate: false
-  ModelName: P_EX100_WI_BTLF
-  NeoMoveset: 44
+  ModelName: P_EX100_WI_TRIF
+  NeoMoveset: 46
   NeoStatus: 1
   NoApdx: false
-  ObjectForm: ValorForm
+  ObjectForm: MasterForm
   ObjectId: 1646
   ObjectShadowSize: MiddleShadow
   ObjectTargetType: M
@@ -599,21 +599,21 @@
   WeaponJoint: 1
   Weight: 100
 1647:
-  AnimationName: P_EX100_HTLF.mset
+  AnimationName: P_EX100.mset
   Before: false
   DrawPriority: 0
-  FixColor: true
-  Flags: 4
+  FixColor: false
+  Flags: 0
   Fly: false
   Hift: false
   IsPirate: false
-  ModelName: P_EX100_TR_HTLF
-  NeoMoveset: 42
+  ModelName: P_EX100_TR
+  NeoMoveset: 37
   NeoStatus: 1
   NoApdx: false
-  ObjectForm: AntiForm
+  ObjectForm: SoraRoxasDefault
   ObjectId: 1647
-  ObjectShadowSize: NoShadow
+  ObjectShadowSize: MiddleShadow
   ObjectTargetType: M
   ObjectType: PLAYER
   Padding: 0
@@ -627,23 +627,23 @@
   SubType: 0
   WallOcclusion: false
   WeaponJoint: 1
-  Weight: 25
+  Weight: 100
 1648:
-  AnimationName: P_EX100_HTLF.mset
+  AnimationName: P_EX100.mset
   Before: false
   DrawPriority: 0
-  FixColor: true
-  Flags: 4
+  FixColor: false
+  Flags: 0
   Fly: false
   Hift: false
   IsPirate: false
-  ModelName: P_EX100_WI_HTLF
-  NeoMoveset: 48
+  ModelName: P_EX100_WI
+  NeoMoveset: 43
   NeoStatus: 1
   NoApdx: false
-  ObjectForm: AntiForm
+  ObjectForm: SoraRoxasDefault
   ObjectId: 1648
-  ObjectShadowSize: NoShadow
+  ObjectShadowSize: MiddleShadow
   ObjectTargetType: M
   ObjectType: PLAYER
   Padding: 0
@@ -657,7 +657,7 @@
   SubType: 0
   WallOcclusion: false
   WeaponJoint: 1
-  Weight: 25
+  Weight: 100
 1649:
   AnimationName: P_EX100_ULTF.mset
   Before: false
@@ -719,7 +719,7 @@
   WeaponJoint: 1
   Weight: 100
 2389:
-  AnimationName: P_EX100.mset
+  AnimationName: P_EX100_KH1F.mset
   Before: false
   DrawPriority: 0
   FixColor: false
@@ -727,8 +727,8 @@
   Fly: false
   Hift: false
   IsPirate: false
-  ModelName: P_EX100_XM
-  NeoMoveset: 11
+  ModelName: P_EX100_XM_KH1F
+  NeoMoveset: 67
   NeoStatus: 1
   NoApdx: false
   ObjectForm: SoraRoxasDefault
@@ -749,21 +749,21 @@
   WeaponJoint: 1
   Weight: 100
 2390:
-  AnimationName: P_EX100_TRIF.mset
+  AnimationName: P_EX100_HTLF.mset
   Before: false
   DrawPriority: 0
-  FixColor: false
-  Flags: 0
+  FixColor: true
+  Flags: 4
   Fly: false
   Hift: false
   IsPirate: false
-  ModelName: P_EX100_XM_TRIF
-  NeoMoveset: 14
+  ModelName: P_EX100_XM_HTLF
+  NeoMoveset: 16
   NeoStatus: 1
   NoApdx: false
-  ObjectForm: MasterForm
+  ObjectForm: AntiForm
   ObjectId: 2390
-  ObjectShadowSize: MiddleShadow
+  ObjectShadowSize: NoShadow
   ObjectTargetType: M
   ObjectType: PLAYER
   Padding: 0
@@ -777,7 +777,7 @@
   SubType: 0
   WallOcclusion: false
   WeaponJoint: 1
-  Weight: 100
+  Weight: 25
 2391:
   AnimationName: P_EX100_MAGF.mset
   Before: false
@@ -809,7 +809,7 @@
   WeaponJoint: 1
   Weight: 100
 2392:
-  AnimationName: P_EX100_BTLF.mset
+  AnimationName: P_EX100_TRIF.mset
   Before: false
   DrawPriority: 0
   FixColor: false
@@ -817,11 +817,11 @@
   Fly: false
   Hift: false
   IsPirate: false
-  ModelName: P_EX100_XM_BTLF
-  NeoMoveset: 12
+  ModelName: P_EX100_XM_TRIF
+  NeoMoveset: 14
   NeoStatus: 1
   NoApdx: false
-  ObjectForm: ValorForm
+  ObjectForm: MasterForm
   ObjectId: 2392
   ObjectShadowSize: MiddleShadow
   ObjectTargetType: M
@@ -839,21 +839,21 @@
   WeaponJoint: 1
   Weight: 100
 2393:
-  AnimationName: P_EX100_HTLF.mset
+  AnimationName: P_EX100.mset
   Before: false
   DrawPriority: 0
-  FixColor: true
-  Flags: 4
+  FixColor: false
+  Flags: 0
   Fly: false
   Hift: false
   IsPirate: false
-  ModelName: P_EX100_XM_HTLF
-  NeoMoveset: 16
+  ModelName: P_EX100_XM
+  NeoMoveset: 11
   NeoStatus: 1
   NoApdx: false
-  ObjectForm: AntiForm
+  ObjectForm: SoraRoxasDefault
   ObjectId: 2393
-  ObjectShadowSize: NoShadow
+  ObjectShadowSize: MiddleShadow
   ObjectTargetType: M
   ObjectType: PLAYER
   Padding: 0
@@ -867,7 +867,7 @@
   SubType: 0
   WallOcclusion: false
   WeaponJoint: 1
-  Weight: 25
+  Weight: 100
 2394:
   AnimationName: P_EX100_ULTF.mset
   Before: false
@@ -899,7 +899,7 @@
   WeaponJoint: 1
   Weight: 100
 2397:
-  AnimationName: P_EX100_KH1F.mset
+  AnimationName: P_EX100_BTLF.mset
   Before: false
   DrawPriority: 0
   FixColor: false
@@ -907,11 +907,11 @@
   Fly: false
   Hift: false
   IsPirate: false
-  ModelName: P_EX100_KH1F
-  NeoMoveset: 66
+  ModelName: P_EX100_BTLF
+  NeoMoveset: 2
   NeoStatus: 1
   NoApdx: false
-  ObjectForm: LimitForm
+  ObjectForm: ValorForm
   ObjectId: 2397
   ObjectShadowSize: MiddleShadow
   ObjectTargetType: M
@@ -929,7 +929,7 @@
   WeaponJoint: 1
   Weight: 100
 2398:
-  AnimationName: P_EX100_KH1F.mset
+  AnimationName: P_EX100_BTLF.mset
   Before: false
   DrawPriority: 0
   FixColor: false
@@ -937,11 +937,11 @@
   Fly: false
   Hift: false
   IsPirate: false
-  ModelName: P_EX100_NM_KH1F
-  NeoMoveset: 67
+  ModelName: P_EX100_NM_BTLF
+  NeoMoveset: 12
   NeoStatus: 1
   NoApdx: false
-  ObjectForm: LimitForm
+  ObjectForm: ValorForm
   ObjectId: 2398
   ObjectShadowSize: MiddleShadow
   ObjectTargetType: M
@@ -959,7 +959,7 @@
   WeaponJoint: 1
   Weight: 100
 2399:
-  AnimationName: P_EX100_KH1F.mset
+  AnimationName: P_EX100_BTLF.mset
   Before: false
   DrawPriority: 0
   FixColor: false
@@ -967,11 +967,11 @@
   Fly: false
   Hift: false
   IsPirate: false
-  ModelName: P_EX100_XM_KH1F
-  NeoMoveset: 67
+  ModelName: P_EX100_XM_BTLF
+  NeoMoveset: 12
   NeoStatus: 1
   NoApdx: false
-  ObjectForm: LimitForm
+  ObjectForm: ValorForm
   ObjectId: 2399
   ObjectShadowSize: MiddleShadow
   ObjectTargetType: M
@@ -989,7 +989,7 @@
   WeaponJoint: 1
   Weight: 100
 2400:
-  AnimationName: P_EX100_KH1F.mset
+  AnimationName: P_EX100_BTLF.mset
   Before: false
   DrawPriority: 0
   FixColor: false
@@ -997,11 +997,11 @@
   Fly: false
   Hift: false
   IsPirate: false
-  ModelName: P_EX100_TR_KH1F
-  NeoMoveset: 68
+  ModelName: P_EX100_TR_BTLF
+  NeoMoveset: 38
   NeoStatus: 1
   NoApdx: false
-  ObjectForm: LimitForm
+  ObjectForm: ValorForm
   ObjectId: 2400
   ObjectShadowSize: MiddleShadow
   ObjectTargetType: M
@@ -1019,7 +1019,7 @@
   WeaponJoint: 1
   Weight: 100
 2401:
-  AnimationName: P_EX100_KH1F.mset
+  AnimationName: P_EX100_BTLF.mset
   Before: false
   DrawPriority: 0
   FixColor: false
@@ -1027,11 +1027,11 @@
   Fly: false
   Hift: false
   IsPirate: false
-  ModelName: P_EX100_WI_KH1F
-  NeoMoveset: 69
+  ModelName: P_EX100_WI_BTLF
+  NeoMoveset: 44
   NeoStatus: 1
   NoApdx: false
-  ObjectForm: LimitForm
+  ObjectForm: ValorForm
   ObjectId: 2401
   ObjectShadowSize: MiddleShadow
   ObjectTargetType: M

@@ -160,7 +160,8 @@ for i in range(7):
         modymlcopy('P_EX100_ULTF', 'P_EX100_ULTF_BLIZZ') #Special MSET for shorter Blizzard finisher
     else:
         modymlcopy('P_EX100'+form) #Enable movement abilities
-        modymlcopy('W_EX010_HTLF') #Change Anti Form's Keyblade spawn behavior
+        if i == 6:
+            modymlcopy('W_EX010_HTLF') #Change Anti Form's Keyblade spawn behavior
         
 for i in [0,2,4,5]: #Magic MSET
     if randomresult[i] == 1:
