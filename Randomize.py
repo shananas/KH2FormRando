@@ -68,6 +68,20 @@ h.write('  type: List\n')
 h.write('  source:\n')
 h.write('  - name: obj.yml\n')
 h.write('    type: objentry\n')
+h.write('- name: 03system.bin\n')
+h.write('  method: binarc\n')
+h.write('  source:\n')
+h.write('  - name: pref\n')
+h.write('    method: copy\n')
+h.write('    source:\n')
+h.write('    - name: pref_0.bin\n')
+h.write('    type: binary\n')
+if randomresult[6] != 6:
+    h.write('  - name: wmst\n')
+    h.write('    method: copy\n')
+    h.write('    source:\n')
+    h.write('    - name: wmst_0.list\n')
+    h.write('    type: list\n')
 modymlcopy('magic/FIRE_1.mag') #Fix Final Form's magic
 modymlcopy('magic/FIRE_2.mag')
 modymlcopy('magic/FIRE_3.mag')
@@ -138,10 +152,9 @@ for i in range(7):
             h.write('    - name: limi_0.bdx\n')
 
         #Return Keyblade after Limits
-        if newlimit != 6: #No changes in weapon moveset for Anti Form
-            if newlimit in [1,4,5]: #Dual-wield forms
-                form += '_R'
-            modymlcopy('W_EX010'+form) #New Form's Weapon Moveset
+        if newlimit in [1,4,5]: #Dual-wield forms
+            form += '_R'
+        modymlcopy('W_EX010'+form) #New Form's Weapon Moveset
     else:
         modymlcopy('P_EX100'+form) #Enable movement
         
@@ -151,23 +164,8 @@ for i in [0,2,4,5]: #Magic MSET
     elif randomresult[i] == 3:
         modymlcopy('W_EX010_KH1F','W_EX010_KH1F_MAGIC')
 
-for i in [0,1,2,4,5]:
-    if randomresult[i] == 6:
-        modymlcopy('W_EX010_HTLF')
-
-h.write('- name: 03system.bin\n')
-h.write('  method: binarc\n')
-h.write('  source:\n')
-h.write('  - name: pref\n')
-h.write('    method: copy\n')
-h.write('    source:\n')
-h.write('    - name: pref_0.bin\n')
-h.write('    type: binary\n')
-h.write('  - name: wmst\n')
-h.write('    method: copy\n')
-h.write('    source:\n')
-h.write('    - name: wmst_0.list\n')
-h.write('    type: list\n')
+if randomresult[6] != 6 and randomresult[3] != 6:
+        modymlcopy('W_EX010_HTLF','W_EX010_HTLF_BASE')
 
 h.close()
 print(randomresult)
