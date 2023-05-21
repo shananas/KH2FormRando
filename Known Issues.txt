@@ -1,7 +1,5 @@
 Known Bugs
 
-Apparantly if a Master Form is replaced by anti form you cannot open chests so dont.
-
 PC can also get stuck in a form if base sora is replaced by wisdom. I have fixed both limit and wisdom on emulator but only the limit form fix works on both. If you go into a second form when base sora is wisdom form without room transitioning you will be stuck in that form unable to revert manually or by reaching 0 form gague. If it is your first time reverting from a form in that room you can/will revert normally.
 
 There seems to be some Tposing on Bosses but you can always just revert if you do Tpose going into a form.

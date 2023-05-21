@@ -155,7 +155,9 @@ for i in range(7):
         if newlimit in [1,4,5]: #Dual-wield forms
             form += '_R'
         modymlcopy('W_EX010'+form) #New Form's Weapon Moveset
-    else:
+    elif (i == 2 and randomresult[2] == 5) or (i == 4 and randomresult[4] == 5):
+        modymlcopy('P_EX100_ULTF', 'P_EX100_ULTF_BLIZZ') #Enable movement
+    else:        
         modymlcopy('P_EX100'+form) #Enable movement
         
 for i in [0,2,4,5]: #Magic MSET
