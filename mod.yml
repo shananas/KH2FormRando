@@ -7,6 +7,19 @@ assets:
   source:
   - name: obj.yml
     type: objentry
+- name: 03system.bin
+  method: binarc
+  source:
+  - name: pref
+    type: binary
+    method: copy
+    source:
+    - name: pref_0.bin
+  - name: wmst
+    type: list
+    method: copy
+    source:
+    - name: wmst_0.list
 - name: magic/FIRE_1.mag
   method: copy
   source:
@@ -77,14 +90,26 @@ assets:
   method: copy
   source:
   - name: obj/P_EX100.mset
+- name: obj/W_EX010_HTLF.mset
+  method: copy
+  source:
+  - name: obj/W_EX010_HTLF.mset
 - name: obj/P_EX100_BTLF.mset
   method: copy
   source:
   - name: obj/P_EX100_BTLF.mset
+- name: obj/W_EX010_HTLF.mset
+  method: copy
+  source:
+  - name: obj/W_EX010_HTLF.mset
 - name: obj/P_EX100_MAGF.mset
   method: copy
   source:
   - name: obj/P_EX100_MAGF.mset
+- name: obj/W_EX010_HTLF.mset
+  method: copy
+  source:
+  - name: obj/W_EX010_HTLF.mset
 - name: obj/P_EX100_KH1F.mset
   method: copy
   source:
@@ -94,11 +119,27 @@ assets:
   method: copy
   source:
   - name: obj/P_EX100_TRIF.mset
+- name: obj/W_EX010_HTLF.mset
+  method: copy
+  source:
+  - name: obj/W_EX010_HTLF.mset
 - name: obj/P_EX100_ULTF.mset
   method: copy
   source:
   - name: obj/P_EX100_ULTF.mset
+- name: obj/W_EX010_HTLF.mset
+  method: copy
+  source:
+  - name: obj/W_EX010_HTLF.mset
 - name: obj/P_EX100_HTLF.mset
   method: copy
   source:
   - name: obj/P_EX100_HTLF.mset
+- name: obj/W_EX010_HTLF.mset
+  method: copy
+  source:
+  - name: obj/W_EX010_HTLF.mset
+- name: obj/W_EX010_BTLF_R.mset
+  method: copy
+  source:
+  - name: obj/W_EX010_BTLF_R_MAGIC.mset
