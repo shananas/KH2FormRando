@@ -2,16 +2,10 @@ Known Bugs
 
 Apparantly if a Master Form is replaced by anti form you cannot open chests so dont.
 
-If Base sora is anti form certain limits never end leaving you invincible normally this is to your benefit but in fights such as xigbar where he teleports away and waits for you to be "vulnerable" this is a softlock. To my knowledge donalds limits are fine but goofys are not. idk about other party members. (I believe Xigbar is the only fight where this is a problem)
-
 PC can also get stuck in a form if base sora is replaced by wisdom. I have fixed both limit and wisdom on emulator but only the limit form fix works on both. If you go into a second form when base sora is wisdom form without room transitioning you will be stuck in that form unable to revert manually or by reaching 0 form gague. If it is your first time reverting from a form in that room you can/will revert normally.
 
 There seems to be some Tposing on Bosses but you can always just revert if you do Tpose going into a form.
 -------------------------------------------------------------------------------------------------------------
 Known "issues"
 
-While Antiform if it replaces limit form can use limits there is no keyblade so its specifically to level limit form up.
-
 Other forms have a keyblades but ragnaroks finisher will have the wrong particle effect and will expire much quicker than usual. This specific limit is to level up limit form but the other three limits work fine.
-
-Not really an issue but if AntiForm replaces base sora he doesn't have a keyblade so very few required RCs will be not doable without another form. This is why there is two randomize options but you would have to be really unlucky to have all forms behind Oogie, PR Barrels, and TR Boat Pete.

@@ -1,7 +1,7 @@
 KH2FormRando
 
 Credits since they cant be in the mod.yml easily 
-Thanks to 1234567890num for making the program to actually randomize it since I dont know how to make anything other than a console application. Also continuing to improve it and add everything the .exe can do. All file edits initially done by me. Thanks to DA for the knowledge by doing an Anti Form mod first. Also thanks to Zurph from the openkh discord again since anytime I have a question he always has an easy answer.
+Thanks to 1234567890num for making the program to actually randomize it since I dont know how to make anything other than a console application. Also continuing to improve it and add everything the .exe can do. All file edits initially done by me. Thanks to DA for the knowledge by doing an Anti Form mod first. Also thanks to Zurph from the openkh discord again since anytime I have a question he always has an easy answer. Thanks to Xaddx for giving anti a keyblade only during RCs so anti cant be somewhar softlocked
 
 PC/PCSX 99.9% Stable
 
