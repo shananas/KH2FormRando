@@ -195,7 +195,7 @@ h.write('    - name: ptya'+forms[newlimit]+'.list\n')
 if randomresult[0] != 0:
     h.write('  - name: plrp\n') 
     h.write('    type: list\n')
-    h.write('    method: copy\n')
+    h.write('    method: listpatch\n')
     h.write('    source:\n')
     h.write('    - name: plrp.yml\n')
         
