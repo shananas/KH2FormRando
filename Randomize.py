@@ -150,9 +150,10 @@ for i in [0,2,4,5]: #Magic MSET
         modymlcopy('W_EX010_BTLF_R','W_EX010_BTLF_R_MAGIC')
     elif randomresult[i] == 3:
         modymlcopy('W_EX010_KH1F','W_EX010_KH1F_MAGIC')
-        
-if 6 in [0,1,2,4,5]:
-    modymlcopy('W_EX010_HTLF')
+
+for i in [0,1,2,4,5]:
+    if randomresult[i] == 6:
+        modymlcopy('W_EX010_HTLF')
 
 h.write('- name: 03system.bin\n')
 h.write('  method: binarc\n')
