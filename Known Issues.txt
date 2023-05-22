@@ -1,9 +1,9 @@
 Known Bugs
 
-PC can also get stuck in a form if base sora is replaced by wisdom. I have fixed both limit and wisdom on emulator but only the limit form fix works on both. If you go into a second form when base sora is wisdom form without room transitioning you will be stuck in that form unable to revert manually or by reaching 0 form gague. If it is your first time reverting from a form in that room you can/will revert normally.
+PC can also get stuck in a Form if Base Sora is replaced by Wisdom. I have fixed both Limit Form and Wisdom Form on emulator but only the Limit Form fix works on both. If you go into a second form after reverting from the first form when Base Sora is Wisdom Form without room transitioning, you will be stuck in that form unable to revert manually or by reaching 0 form gague. If it is your first time reverting from a form in that room, you can/will revert normally.
 
-There seems to be some Tposing on Bosses but you can always just revert if you do Tpose going into a form.
+There seems to be some T-posing on Bosses but you can always just revert if you do T-pose going into a form. This should only happen with Boss/Enemy rando and maybe other memory intensive options.
 -------------------------------------------------------------------------------------------------------------
 Known "issues"
 
-Other forms have a keyblades but ragnaroks finisher will have the wrong particle effect and will expire much quicker than usual. This specific limit is to level up limit form but the other three limits work fine.
+Other forms have a keyblades but ragnaroks finisher will have the wrong particle effect and may expire much quicker than usual. This specific limit is mainly to level up limit form but the other three limits work normally.
