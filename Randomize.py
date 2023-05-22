@@ -105,6 +105,12 @@ h.write('    type: list\n')
 h.write('    method: copy\n')
 h.write('    source:\n')
 h.write('    - name: wmst_0.list\n')
+h.write('  - name: cmd\n') #Change Anti Form's cost
+h.write('    type: list\n')
+h.write('    method: listpatch\n')
+h.write('    source:\n')
+h.write('    - name: cmd.yml\n')
+h.write('      type: cmd\n')
 modymlcopy('magic/FIRE_1.mag') #Fix Final Form's magic
 modymlcopy('magic/FIRE_2.mag')
 modymlcopy('magic/FIRE_3.mag')
