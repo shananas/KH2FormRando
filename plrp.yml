@@ -1,26 +1,21 @@
 - AccessorySlotMax: 0
   Ap: 0
   ArmorSlotMax: 0
-  Character: 133
+  Character: 134
   Defense: 0
   Hp: 0
   Id: 0
   ItemSlotMax: 0
   Items:
-  - 32874
-  - 33181
-  - 33039
+  - 33172
+  - 32905
   - 33035
+  - 33041
   - 33030
   - 33031
-  - 33032
-  - 33330
-  - 33033
+  - 33327
   - 33034
-  - 33037
   - 33328
-  - 33040
-  - 33329
   - 33036
   Magic: 0
   Mp: 0
