@@ -198,7 +198,8 @@ if randomresult[0] != 0:
     h.write('    method: listpatch\n')
     h.write('    source:\n')
     h.write('    - name: plrp.yml\n')
-        
+    h.write('      type: plrp\n')
+    
 h.close()
 print(randomresult)
 #input()
