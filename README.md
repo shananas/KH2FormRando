@@ -14,4 +14,6 @@ To easily there, click on KH2FormRando in the mod manager and click mods open mo
 When using Randomize.exe
 Base Sora can only be regular Sora, Wisdom Form, Limit Form, or Anti Form.
 
+Now if Base Sora isnt vanilla Base Sora will have access to a random set of its action abilities viewable in the forms menu. If Valor Form is replaced by Base Sora look at Valors ability list to see what action abilities Base Sora can use. Thanks to num for this.
+
 Everything else is fully random. Form exp requirements stay vanilla(So in whatever replaced Limit Form you still need to use limits to level it). EX: if Final Form becomes Base Sora have fun leveling up final as Base Sora.
