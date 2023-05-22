@@ -1,0 +1,24 @@
+- Id: 13
+  Execute: 4
+  Argument: 6
+  SubMenu: -1
+  CmdIcon: 4
+  MessageId: 33257
+  Flags: Cursor, Battle, Drive, DisableSkateboard
+  Range: -1
+  Dir: 0
+  DirRange: -1
+  Cost: 4
+  CmdCamera: 0
+  Priority: 100
+  CmdReceiver: 0
+  Time: 0
+  Require: 0
+  Mark: 1
+  CmdAction: 0
+  ReactionCount: 0
+  DistRange: 0
+  Score: 100
+  DisableForm: 0
+  Group: 0
+  Reserve: 0

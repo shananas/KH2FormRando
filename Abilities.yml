@@ -1,0 +1,52 @@
+baseAbilities:
+- 0x8052 #Guard
+- 0x8089 #Upper Slash
+- 0x810F #Horizontal Slash
+- 0x810B #Finishing Leap
+- 0x8111 #Retaliating Slash
+- 0x8106 #Slapshot
+- 0x8107 #Dodge Slash
+- 0x822F #Flash Step
+- 0x8108 #Slide Dash
+- 0x8232 #Vicinity Break
+- 0x8109 #Guard Break
+- 0x810A #Explosion
+- 0x810D #Aerial Sweep
+- 0x8230 #Aerial Dive
+- 0x810E #Aerial Spiral
+- 0x8110 #Aerial Finish
+- 0x8231 #Magnet Burst
+- 0x810C #Counterguard
+formAbilities:
+- 0x8239 #Sonic Blade
+- 0x823A #Ars Arcanum
+- 0x823B #Strike Raid
+- 0x823C #Ragnarok
+- 0x823D #Zantetsuken
+- 0x823E #Ripple Drive
+- 0x823F #Hurricane Period
+- 0x824B #Zantetsu Counter
+- 0x824C #Reflect Combo
+- 0x824D #HP Gain
+- 0x820F #Final Arcana
+- 0x8210 #Final Strike
+- 0x8211 #Final Arts
+- 0x8207 #Auto Assault
+- 0x8212 #Crime & Punishment
+- 0x80D8 #Brave Shot
+- 0x80D9 #Brave Beat
+- 0x80DA #Sonic Strike
+- 0x80DB #Sonic End
+- 0x80F6 #Over the Horizon
+- 0x80F7 #Omega Finale
+- 0x80DF #Synch Blade
+- 0x80DC #Wisdom Shot
+- 0x80DD #Mobile Action
+- 0x80E0 #Magic Haste
+- 0x80E1 #Magic Spice
+- 0x8101 #Master Strike
+- 0x8102 #Disaster
+- 0x8105 #Master Magic
+- 0x8103 #Endless Magic
+- 0x80F8 #Anti Glide Dummy?
+- 0x80F9 #Side Spin Dummy?
