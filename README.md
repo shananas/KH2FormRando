@@ -5,7 +5,7 @@ Thanks to 1234567890num for making the program to randomize, continuing to impro
 
 PC/PCSX 99.9% Stable
 
-Read known issues for a few precautions as to not freeze/crash. Its pretty stable but there is one crash on PCSX/PC
+Read known issues for a few precautions as to not T-Pose. Its pretty stable on both PCSX/PC
 
 There may be some limited T-posing that still exists. This should only happen with Boss/Enemy rando and maybe other memory intensive options.
 

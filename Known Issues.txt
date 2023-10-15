@@ -1,6 +1,6 @@
 Known Bugs
 
-PC can also get stuck in a Form if Base Sora is replaced by Wisdom. I have fixed both Limit Form and Wisdom Form on emulator but only the Limit Form fix works on both. If you go into a second form after reverting from the first form when Base Sora is Wisdom Form without room transitioning, you will be stuck in that form unable to revert manually or by reaching 0 form gague. If it is your first time reverting from a form in that room, you can/will revert normally.
+PC can get stuck in a Form if Base Sora is replaced by Wisdom. I have fixed both Limit Form and Wisdom Form on emulator but only the Limit Form fix works on both. If you go into a second form after reverting from the first form when Base Sora is Wisdom Form without room transitioning, you will be stuck in that form unable to revert manually or by reaching 0 form gague. If it is your first time reverting from a form in that room, you can/will revert normally.
 
 There seems to be some T-posing on Bosses but you can always just revert if you do T-pose going into a form. This should only happen with Boss/Enemy rando and maybe other memory intensive options.
 -------------------------------------------------------------------------------------------------------------
